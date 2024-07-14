@@ -1,112 +1,130 @@
 package com.drosa.tai;
 
-import javax.swing.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Quiz {
-    private static final String[] questions = {
-            "1. ¿Qué comando se usa para listar los archivos y directorios en Linux?",
-            "2. ¿Qué comando se usa para cambiar el directorio en Linux?",
-            "3. ¿Qué comando muestra el contenido de un archivo en la terminal?",
-            "4. ¿Qué comando se usa para copiar archivos en Linux?",
-            "5. ¿Qué comando se usa para mover archivos en Linux?",
-            "6. ¿Qué comando se usa para eliminar archivos en Linux?"
-    };
-
-    private static final String[][] options = {
-            {"ls", "cd", "mkdir", "rm"},
-            {"cd", "ls", "pwd", "mv"},
-            {"cat", "echo", "nano", "vim"},
-            {"cp", "mv", "rm", "ls"},
-            {"mv", "cp", "rm", "mkdir"},
-            {"rm", "mkdir", "ls", "cp"}
-    };
-
-    private static final int[] correctAnswers = {0, 0, 0, 0, 0, 0}; // Índices de las respuestas correctas para cada pregunta
-
+    private final List<String> questions = new ArrayList<>();
+    private final List<String[]> options = new ArrayList<>();
+    private final List<Integer> correctAnswers = new ArrayList<>();
     private int currentQuestionIndex = 0;
     private int correctCount = 0;
     private int incorrectCount = 0;
+    private int invalidCount = 0;
 
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(Quiz::new);
-    }
+    public void loadQuestionsFromCSV(String filePath) {
+        questions.clear();
+        options.clear();
+        correctAnswers.clear();
+        currentQuestionIndex = 0;
 
-    public Quiz() {
-        JFrame frame = new JFrame("Quiz");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(600, 300); // Ajustar el tamaño del JFrame
-        frame.setLocationRelativeTo(null); // Centrar el JFrame en la pantalla
-
-        JPanel panel = new JPanel();
-        frame.add(panel);
-        placeComponents(panel);
-
-        frame.setVisible(true);
-    }
-
-    private void placeComponents(JPanel panel) {
-        panel.setLayout(null);
-
-        JLabel questionLabel = new JLabel(questions[currentQuestionIndex]);
-        questionLabel.setBounds(10, 20, 580, 25); // Ajustar el tamaño del JLabel para que se ajuste al nuevo ancho del JFrame
-        panel.add(questionLabel);
-
-        JRadioButton[] optionButtons = new JRadioButton[4];
-        ButtonGroup group = new ButtonGroup();
-
-        for (int i = 0; i < options[currentQuestionIndex].length; i++) {
-            optionButtons[i] = new JRadioButton(options[currentQuestionIndex][i]);
-            optionButtons[i].setBounds(10, 50 + (i * 30), 580, 25); // Ajustar el tamaño de los JRadioButtons
-            group.add(optionButtons[i]);
-            panel.add(optionButtons[i]);
-        }
-
-        JButton submitButton = new JButton("Enviar");
-        submitButton.setBounds(10, 180, 200, 25);
-        panel.add(submitButton);
-
-        JLabel resultLabel = new JLabel("");
-        resultLabel.setBounds(10, 210, 580, 25); // Ajustar el tamaño del JLabel para que se ajuste al nuevo ancho del JFrame
-        panel.add(resultLabel);
-
-        submitButton.addActionListener(e -> {
-            boolean answered = false;
-            for (int i = 0; i < optionButtons.length; i++) {
-                if (optionButtons[i].isSelected()) {
-                    answered = true;
-                    if (i == correctAnswers[currentQuestionIndex]) {
-                        resultLabel.setText("¡Correcto!");
-                        correctCount++;
-                    } else {
-                        resultLabel.setText("Incorrecto. La respuesta correcta es " + options[currentQuestionIndex][correctAnswers[currentQuestionIndex]] + ".");
-                        incorrectCount++;
-                    }
-                    break;
+        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
+            String line;
+            boolean firstLine = true;
+            while ((line = br.readLine()) != null) {
+                if (firstLine) {
+                    firstLine = false;  // Skip the header line.
+                    continue;
+                }
+                String[] parts = line.split(";");
+                if (parts.length == 6) {
+                    questions.add(parts[0]);
+                    options.add(new String[]{parts[1], parts[2], parts[3], parts[4]});
+                    correctAnswers.add(Integer.parseInt(parts[5].trim()) - 1); // Adjust for index starting from 0
                 }
             }
-            if (!answered) {
-                resultLabel.setText("Por favor, selecciona una opción.");
-            } else {
-                currentQuestionIndex++;
-                if (currentQuestionIndex < questions.length) {
-                    updateQuestion(questionLabel, optionButtons, resultLabel);
-                } else {
-                    resultLabel.setText("¡Has completado el quiz!");
-                    submitButton.setEnabled(false);
-                    JOptionPane.showMessageDialog(panel, "Puntuación final:\nCorrectas: " + correctCount + "\nIncorrectas: " + incorrectCount);
-                }
-            }
-        });
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
-    private void updateQuestion(JLabel questionLabel, JRadioButton[] optionButtons, JLabel resultLabel) {
-        questionLabel.setText(questions[currentQuestionIndex]);
-        ButtonGroup group = new ButtonGroup();
-        for (int i = 0; i < options[currentQuestionIndex].length; i++) {
-            optionButtons[i].setText(options[currentQuestionIndex][i]);
-            optionButtons[i].setSelected(false);
-            group.add(optionButtons[i]);
+    public String getQuestion() {
+        if (currentQuestionIndex < questions.size()) {
+            return questions.get(currentQuestionIndex);
         }
-        resultLabel.setText("");
+        return null;
+    }
+
+    public String[] getCurrentOptions() {
+        if (currentQuestionIndex < options.size()) {
+            return options.get(currentQuestionIndex);
+        }
+        return new String[]{"", "", "", ""};
+    }
+
+    public int getCorrectAnswerIndex() {
+        return correctAnswers.get(currentQuestionIndex);
+    }
+
+    public int getCurrentQuestionIndex() {
+        return currentQuestionIndex;
+    }
+
+    public void setCurrentQuestionIndex(int index) {
+        currentQuestionIndex = index;
+    }
+
+    public void incrementCurrentQuestionIndex() {
+        if (currentQuestionIndex < questions.size() - 1) {
+            currentQuestionIndex++;
+        }
+    }
+
+    public int getCorrectCount() {
+        return correctCount;
+    }
+
+    public void incrementCorrectCount() {
+        correctCount++;
+    }
+
+    public int getIncorrectCount() {
+        return incorrectCount;
+    }
+
+    public void incrementIncorrectCount() {
+        incorrectCount++;
+    }
+
+    public int getInvalidCount() {
+        return invalidCount;
+    }
+
+    public void incrementInvalidCount() {
+        invalidCount++;
+    }
+
+    public void setCorrectCount(int count) {
+        correctCount = count;
+    }
+
+    public void setIncorrectCount(int count) {
+        incorrectCount = count;
+    }
+
+    public void setInvalidCount(int count) {
+        invalidCount = count;
+    }
+
+    public String getCorrectAnswerText() {
+        if (currentQuestionIndex < options.size()) {
+            return options.get(currentQuestionIndex)[correctAnswers.get(currentQuestionIndex)];
+        }
+        return "";
+    }
+
+    public List<String> getQuestions() {
+        return questions;
+    }
+
+    public List<String[]> getOptions() {
+        return options;
+    }
+
+    public List<Integer> getCorrectAnswers() {
+        return correctAnswers;
     }
 }
