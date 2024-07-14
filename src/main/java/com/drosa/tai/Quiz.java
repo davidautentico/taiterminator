@@ -10,6 +10,12 @@ public class Quiz {
     private final List<String> questions = new ArrayList<>();
     private final List<String[]> options = new ArrayList<>();
     private final List<Integer> correctAnswers = new ArrayList<>();
+
+    public List<String> getReferences() {
+        return references;
+    }
+
+    private final List<String> references = new ArrayList<>();
     private int currentQuestionIndex = 0;
     private int correctCount = 0;
     private int incorrectCount = 0;
@@ -30,10 +36,11 @@ public class Quiz {
                     continue;
                 }
                 String[] parts = line.split(";");
-                if (parts.length == 6) {
+                if (parts.length == 7) {
                     questions.add(parts[0]);
                     options.add(new String[]{parts[1], parts[2], parts[3], parts[4]});
-                    correctAnswers.add(Integer.parseInt(parts[5].trim()) - 1); // Adjust for index starting from 0
+                    correctAnswers.add(Integer.parseInt(parts[5].trim())); // Adjust for index starting from 0
+                    references.add(parts[6]);
                 }
             }
         } catch (IOException e) {

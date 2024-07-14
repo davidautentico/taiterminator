@@ -1,21 +1,20 @@
 package com.drosa.tai;
 
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.io.File;
 
 public class QuizUI {
-    private Quiz quiz;
+    private final Quiz quiz;
     private JFrame frame;
     private JPanel panel;
-    private JLabel questionLabel;
+    private JTextArea questionArea;
     private JRadioButton[] optionButtons;
     private ButtonGroup group;
-    private JLabel resultLabel;
     private JButton submitButton;
     private JLabel correctLabel;
     private JLabel incorrectLabel;
     private JLabel invalidLabel;
+    private JTextArea referenceArea;
     private JLabel fileLabel;
     private JButton invalidButton;
     private String currentFileName = "";
@@ -32,16 +31,15 @@ public class QuizUI {
     private void initializeUI() {
         frame = new JFrame("Quiz");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(600, 500);
+        frame.setSize(800, 600); // Increased width for better readability
         frame.setLocationRelativeTo(null);
 
         panel = new JPanel();
-        frame.add(panel);
         panel.setLayout(null);
+        frame.add(panel);
 
-        // Select file and load questions
         fileLabel = new JLabel("No file selected");
-        fileLabel.setBounds(10, 10, 580, 25);
+        fileLabel.setBounds(10, 10, 760, 25);
         panel.add(fileLabel);
 
         JButton selectFileButton = new JButton("Select File");
@@ -49,41 +47,48 @@ public class QuizUI {
         panel.add(selectFileButton);
         selectFileButton.addActionListener(e -> chooseFile());
 
-        // Question display setup
-        questionLabel = new JLabel("");
-        questionLabel.setBounds(10, 90, 580, 25);
-        panel.add(questionLabel);
+        questionArea = new JTextArea();
+        questionArea.setLineWrap(true);
+        questionArea.setWrapStyleWord(true);
+        questionArea.setEditable(false);
+        JScrollPane scrollPane = new JScrollPane(questionArea);
+        scrollPane.setBounds(10, 80, 760, 100);
+        panel.add(scrollPane);
 
-        // Radio buttons for options
         group = new ButtonGroup();
         optionButtons = new JRadioButton[4];
         for (int i = 0; i < optionButtons.length; i++) {
             optionButtons[i] = new JRadioButton();
-            optionButtons[i].setBounds(10, 120 + (i * 30), 580, 25);
+            optionButtons[i].setBounds(10, 190 + (i * 30), 760, 25);
             group.add(optionButtons[i]);
             panel.add(optionButtons[i]);
         }
 
-        // Button to submit answer
         submitButton = new JButton("Submit");
-        submitButton.setBounds(10, 270, 160, 25);
+        submitButton.setBounds(10, 330, 160, 25);
         panel.add(submitButton);
         submitButton.addActionListener(e -> submitAnswer());
 
-        // Labels for correct, incorrect, and invalid counters
         correctLabel = new JLabel("Correct: 0");
-        correctLabel.setBounds(10, 320, 160, 25);
+        correctLabel.setBounds(10, 380, 160, 25);
         panel.add(correctLabel);
 
         incorrectLabel = new JLabel("Incorrect: 0");
-        incorrectLabel.setBounds(180, 320, 160, 25);
+        incorrectLabel.setBounds(180, 380, 160, 25);
         panel.add(incorrectLabel);
 
         invalidLabel = new JLabel("Invalid: 0");
-        invalidLabel.setBounds(350, 320, 160, 25);
+        invalidLabel.setBounds(350, 380, 160, 25);
         panel.add(invalidLabel);
 
-        // Button to mark as invalid
+        referenceArea = new JTextArea();
+        referenceArea.setLineWrap(true);
+        referenceArea.setWrapStyleWord(true);
+        referenceArea.setEditable(false);
+        JScrollPane referenceScrollPane = new JScrollPane(referenceArea);
+        referenceScrollPane.setBounds(10, 420, 760, 100);
+        panel.add(referenceScrollPane);
+
         invalidButton = new JButton("Mark Invalid");
         invalidButton.setBounds(180, 40, 160, 25);
         panel.add(invalidButton);
@@ -94,6 +99,9 @@ public class QuizUI {
 
     private void chooseFile() {
         JFileChooser fileChooser = new JFileChooser();
+        String projectPath = System.getProperty("user.dir");
+        String resourcesPath = projectPath + File.separator + "src" + File.separator + "main" + File.separator + "resources";
+        fileChooser.setCurrentDirectory(new File(resourcesPath));
         int result = fileChooser.showOpenDialog(frame);
         if (result == JFileChooser.APPROVE_OPTION) {
             String filePath = fileChooser.getSelectedFile().getAbsolutePath();
@@ -106,15 +114,16 @@ public class QuizUI {
 
     private void refreshQuestion() {
         if (quiz.getCurrentQuestionIndex() < quiz.getQuestions().size()) {
-            String question = (String) quiz.getQuestions().get(quiz.getCurrentQuestionIndex());
-            questionLabel.setText((quiz.getCurrentQuestionIndex() + 1) + ". " + question);
+            String question = quiz.getQuestions().get(quiz.getCurrentQuestionIndex());
+            questionArea.setText((quiz.getCurrentQuestionIndex() + 1) + ". " + question);
+
             String[] options = quiz.getOptions().get(quiz.getCurrentQuestionIndex());
             for (int i = 0; i < options.length; i++) {
                 optionButtons[i].setText(options[i]);
                 optionButtons[i].setSelected(false);
             }
             group.clearSelection();
-            resultLabel.setText("");
+            //resultLabel.setText("");
         } else {
             finishQuiz();
         }
@@ -137,11 +146,12 @@ public class QuizUI {
         if (selectedIndex == quiz.getCorrectAnswers().get(quiz.getCurrentQuestionIndex())) {
             quiz.incrementCorrectCount();
             correctLabel.setText("Correct: " + quiz.getCorrectCount());
-            resultLabel.setText("Correct!");
+            //resultLabel.setText("Correct!");
         } else {
             quiz.incrementIncorrectCount();
             incorrectLabel.setText("Incorrect: " + quiz.getIncorrectCount());
-            resultLabel.setText("Incorrect. Correct is: " + quiz.getCorrectAnswerText());
+            referenceArea.append((quiz.getCurrentQuestionIndex() + 1) + ". FAILED: " + quiz.getReferences().get(quiz.getCurrentQuestionIndex()));
+            referenceArea.append("\n");
         }
 
         quiz.incrementCurrentQuestionIndex();

@@ -1,52 +1,40 @@
-Pregunta;Opción 1;Opción 2;Opción 3;Opción 4;Respuesta Correcta
-¿Qué comando se utiliza para cambiar los permisos de un archivo en Linux?;chmod;chown;ls;grep;0
-¿Qué significa el permiso 'r' en Linux?;Lectura;Escritura;Ejecución;Ninguna de las anteriores;0
-¿Cuál es el número máximo de usuarios que pueden tener acceso a un archivo en Linux?;256;1024;65536;No hay límite;1
-¿Qué significa el permiso 'x' en Linux?;Lectura;Escritura;Ejecución;Ninguna de las anteriores;2
-¿Cómo se muestra el listado detallado de permisos en Linux?;ls;dir;ll;list;2
-¿Qué comando se utiliza para cambiar el propietario y el grupo de un archivo en Linux?;chown;chmod;chgrp;groupmod;0
-¿Qué significa el permiso 'w' en Linux?;Lectura;Escritura;Ejecución;Ninguna de las anteriores;1
-¿Qué comando se utiliza para cambiar el grupo de un archivo en Linux?;chgrp;chown;chmod;groupmod;0
-¿Cuál es el comando para listar todos los archivos en un directorio, incluyendo los ocultos?;ls -a;ls -l;ls -h;ls -o;0
-¿Qué significa el permiso 's' en Linux cuando está en el bit de ejecución de un archivo?;Arranque;SetUID;SetGID;Superusuario;1
-¿Cuál es el valor octal para dar permisos de lectura, escritura y ejecución a un archivo en Linux?;777;666;111;000;0
-¿Qué hace el comando 'chmod 755 archivo.txt' en Linux?;Otorga permisos rwxr-xr-x al archivo.txt;Cambia el propietario del archivo.txt;Elimina el archivo.txt;No hace nada;0
-¿Cuál es el valor octal para dar permisos de lectura y escritura al propietario, y solo lectura a los demás en un archivo en Linux?;644;755;777;666;0
-¿Qué significa el permiso 't' en Linux cuando está en el bit de ejecución de un directorio?;Transferencia;Traverse;Sticky bit;Tiempo de acceso;2
-¿Cuál es el comando para cambiar el directorio actual en Linux?;cd;pwd;ls;mv;0
-¿Qué comando se utiliza para ver los procesos en ejecución en Linux?;ps;top;kill;pgrep;0
-¿Cuál es el comando para cambiar el nombre de un archivo en Linux?;mv;rename;cp;name;0
-¿Qué significa el permiso 'd' en Linux cuando está en el bit de ejecución de un archivo?;Delete;Directory;Data;Device;1
-¿Cuál es el comando para mostrar el espacio libre y utilizado en los sistemas de archivos de Linux?;df;du;fs;lsblk;0
-¿Qué comando se utiliza para crear un enlace simbólico en Linux?;ln -s;ls -l;cp -s;mv -l;0
-¿Cuál es el valor octal para dar permisos de lectura y ejecución al propietario, y solo ejecución a los demás en un archivo en Linux?;711;644;777;666;0
-¿Qué significa el permiso 'a' en Linux cuando está en el bit de ejecución de un archivo?;Access;All users;Append;Allocate;1
-¿Cuál es el comando para encontrar archivos en Linux basado en su nombre?;find;grep;locate;search;0
-¿Qué comando se utiliza para mostrar el contenido de un archivo en Linux?;cat;ls;echo;more;0
-¿Cuál es el valor octal para dar permisos de lectura, escritura y ejecución al propietario, y solo ejecución a los demás en un archivo en Linux?;711;644;777;666;0
-¿Qué significa el permiso 'n' en Linux cuando está en el bit de ejecución de un archivo?;No access;Null;Not owner;No change;1
-¿Cuál es el comando para cambiar los permisos de un archivo recursivamente en Linux?;chmod -R;chown -R;ls -R;grep -R;0
-¿Qué comando se utiliza para ver el tamaño de un archivo en Linux?;du;size;ls -s;wc -c;2
-¿Cuál es el valor octal para dar permisos de lectura y escritura al propietario, y solo ejecución a los demás en un archivo en Linux?;622;744;777;666;0
-¿Qué significa el permiso 'g' en Linux cuando está en el bit de ejecución de un archivo?;Group;Guest;General;Global;0
-¿Cuál es el comando para cambiar los permisos de un archivo de manera interactiva en Linux?;chmod -i;chown -i;ls -i;grep -i;0
-¿Qué comando se utiliza para ver los archivos y directorios en un directorio en Linux?;ls;dir;list;pwd;0
-¿Cuál es el valor octal para dar permisos de lectura, escritura y ejecución al propietario, y solo lectura a los demás en un archivo en Linux?;744;666;777;644;0
-¿Qué significa el permiso 'u' en Linux cuando está en el bit de ejecución de un archivo?;User;Unrestricted;Unified;Universal;0
-¿Cuál es el comando para buscar y reemplazar texto dentro de un archivo en Linux?;sed;awk;replace;find;0
-¿Qué comando se utiliza para cambiar los permisos de un archivo solo para el propietario en Linux?;chmod u+rx;chmod g+rx;chmod o+rx;chmod a+rx;0
-¿Qué significa el permiso 'p' en Linux cuando está en el bit de ejecución de un archivo?;Public;Personal;Portable;Private;3
-¿Cuál es el comando para eliminar un archivo en Linux?;rm;delete;erase;del;0
-¿Qué comando se utiliza para ver la ubicación del directorio actual en Linux?;pwd;cd;ls;dir;0
-¿Qué significa el permiso 'm' en Linux cuando está en el bit de ejecución de un archivo?;Modify;Mode;Member;Master;1
-¿Cuál es el comando para ver las últimas líneas de un archivo en Linux?;tail;head;more;cat;0
-¿Qué comando se utiliza para comprimir archivos en Linux?;tar;zip;gzip;compress;0
-¿Qué significa el permiso 'f' en Linux cuando está en el bit de ejecución de un archivo?;File;Format;Find;Field;0
-¿Cuál es el comando para ver el contenido de un archivo página por página en Linux?;less;more;cat;head;0
-¿Qué comando se utiliza para mostrar los procesos en ejecución en tiempo real en Linux?;top;ps;kill;htop;0
-¿Cuál es el comando para ver las primeras líneas de un archivo en Linux?;head;tail;more;cat;0
-¿Qué significa el permiso 'e' en Linux cuando está en el bit de ejecución de un archivo?;Execute;Edit;Enhance;Expand;0
-¿Cuál es el comando para listar los archivos y directorios en un directorio en Linux, ordenados por fecha de modificación?;ls -l;ll;dir -l;list -l;0
-¿Qué comando se utiliza para mostrar el manual de un comando en Linux?;man;help;info;usage;0
-¿Qué significa el permiso 'q' en Linux cuando está en el bit de ejecución de un archivo?;Quick;Quiet;Quit;Quote;1
-¿Cuál es el comando para mostrar el tamaño de un directorio en Linux?;du -sh;ls -s;df -h;dir -s;0
+Pregunta;Opción 1;Opción 2;Opción 3;Opción 4;Respuesta Correcta;Referencia
+¿Qué comando se utiliza para cambiar los permisos de un archivo en Linux?;chmod;chown;ls;grep;0;https://linux.die.net/man/1/chmod
+¿Qué significa el permiso 'r' en Linux?;Lectura;Escritura;Ejecución;Ninguna de las anteriores;0;https://linuxconfig.org/file-permissions-on-linux-explained
+¿Cuál es el número máximo de usuarios que pueden tener acceso a un archivo en Linux?;256;1024;65536;No hay límite;1;https://unix.stackexchange.com/questions/378165/maximum-number-of-users-that-can-access-a-linux-folder
+¿Qué significa el permiso 'x' en Linux?;Lectura;Escritura;Ejecución;Ninguna de las anteriores;2;https://www.linux.com/training-tutorials/understanding-linux-file-permissions/
+¿Cómo se muestra el listado detallado de permisos en Linux?;ls;dir;ll;list;2;https://www.tecmint.com/linux-list-all-files-permissions-in-directory-recursively/
+¿Qué comando se utiliza para cambiar el propietario y el grupo de un archivo en Linux?;chown;chmod;chgrp;groupmod;0;https://man7.org/linux/man-pages/man1/chown.1.html
+¿Qué significa el permiso 'w' en Linux?;Lectura;Escritura;Ejecución;Ninguna de las anteriores;1;https://linuxconfig.org/file-permissions-on-linux-explained
+¿Qué comando se utiliza para cambiar el grupo de un archivo en Linux?;chgrp;chown;chmod;groupmod;0;https://man7.org/linux/man-pages/man1/chgrp.1.html
+¿Cuál es el comando para listar todos los archivos en un directorio, incluyendo los ocultos?;ls -a;ls -l;ls -h;ls -o;0;https://linuxize.com/post/how-to-list-all-files-in-directory-in-linux/
+¿Qué significa el permiso 's' en Linux cuando está en el bit de ejecución de un archivo?;Arranque;SetUID;SetGID;Superusuario;1;https://www.linux.com/training-tutorials/understanding-linux-file-permissions/
+¿Cuál es el valor octal para dar permisos de lectura, escritura y ejecución a un archivo en Linux?;777;666;111;000;0;https://linuxize.com/post/chmod-command-in-linux/
+¿Qué hace el comando 'chmod 755 archivo.txt' en Linux?;Otorga permisos rwxr-xr-x al archivo.txt;Cambia el propietario del archivo.txt;Elimina el archivo.txt;No hace nada;0;https://www.howtoforge.com/linux-chmod-command/
+¿Cuál es el valor octal para dar permisos de lectura y escritura al propietario, y solo lectura a los demás en un archivo en Linux?;644;755;777;666;0;https://linuxize.com/post/chmod-command-in-linux/
+¿Qué significa el permiso 't' en Linux cuando está en el bit de ejecución de un directorio?;Transferencia;Traverse;Sticky bit;Tiempo de acceso;2;https://linuxize.com/post/sticky-bit-usage-and-examples/
+¿Cuál es el comando para cambiar el directorio actual en Linux?;cd;pwd;ls;mv;0;https://linuxize.com/post/linux-cd-command/
+¿Qué comando se utiliza para ver los procesos en ejecución en Linux?;ps;top;kill;pgrep;0;https://www.cyberciti.biz/faq/show-all-running-processes-in-linux/
+¿Cuál es el comando para cambiar el nombre de un archivo en Linux?;mv;rename;cp;name;0;https://www.howtoforge.com/linux-rename-file/
+¿Qué significa el permiso 'd' en Linux cuando está en el bit de ejecución de un archivo?;Delete;Directory;Data;Device;1;https://www.linux.com/training-tutorials/understanding-linux-file-permissions/
+¿Cuál es el comando para mostrar el espacio libre y utilizado en los sistemas de archivos de Linux?;df;du;fs;lsblk;0;https://linuxize.com/post/checking-disk-space-on-linux-with-du-and-df/
+¿Qué comando se utiliza para crear un enlace simbólico en Linux?;ln -s;ls -l;cp -s;mv -l;0;https://linuxize.com/post/how-to-create-symbolic-links-in-linux-using-the-ln-command/
+¿Cuál es el valor octal para dar permisos de lectura y ejecución al propietario, y solo ejecución a los demás en un archivo en Linux?;711;644;777;666;0;https://linuxize.com/post/chmod-command-in-linux/
+¿Qué significa el permiso 'a' en Linux cuando está en el bit de ejecución de un archivo?;Access;All users;Append;Allocate;1;https://www.linux.com/training-tutorials/understanding-linux-file-permissions/
+¿Cuál es el comando para encontrar archivos en Linux basado en su nombre?;find;grep;locate;search;0;https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/
+¿Qué comando se utiliza para mostrar el contenido de un archivo en Linux?;cat;ls;echo;more;0;https://linuxize.com/post/linux-cat-command/
+¿Cuál es el valor octal para dar permisos de lectura, escritura y ejecución al propietario, y solo ejecución a los demás en un archivo en Linux?;711;644;777;666;0;https://linuxize.com/post/chmod-command-in-linux/
+¿Qué significa el permiso 'n' en Linux cuando está en el bit de ejecución de un archivo?;No access;Null;Not owner;No change;1;https://www.linux.com/training-tutorials/understanding-linux-file-permissions/
+¿Cuál es el comando para cambiar los permisos de un archivo recursivamente en Linux?;chmod -R;chown -R;ls -R;grep -R;0;https://linuxize.com/post/chmod-recursively-linux/
+¿Qué comando se utiliza para ver el tamaño de un archivo en Linux?;du;size;ls -s;wc -c;2;https://linuxize.com/post/linux-du-command/
+¿Cuál es el valor octal para dar permisos de lectura y escritura al propietario, y solo ejecución a los demás en un archivo en Linux?;622;744;777;666;0;https://linuxize.com/post/chmod-command-in-linux/
+¿Qué significa el permiso 'g' en Linux cuando está en el bit de ejecución de un archivo?;Group;Guest;General;Global;0;https://www.linux.com/training-tutorials/understanding-linux-file-permissions/
+¿Cuál es el comando para cambiar los permisos de un archivo de manera interactiva en Linux?;chmod -i;chown -i;ls -i;grep -i;0;https://man7.org/linux/man-pages/man1/chmod.1.html
+¿Qué comando se utiliza para ver los archivos y directorios en un directorio en Linux?;ls;dir;list;pwd;0;https://linuxize.com/post/linux-ls-command/
+¿Cuál es el valor octal para dar permisos de lectura, escritura y ejecución al propietario, y solo lectura a los demás en un archivo en Linux?;744;666;777;644;0;https://linuxize.com/post/chmod-command-in-linux/
+¿Qué significa el permiso 'u' en Linux cuando está en el bit de ejecución de un archivo?;User;Unrestricted;Unified;Universal;0;https://www.linux.com/training-tutorials/understanding-linux-file-permissions/
+¿Cuál es el comando para buscar y reemplazar texto dentro de un archivo en Linux?;sed;awk;replace;find;0;https://linuxize.com/post/how-to-use-sed-to-find-and-replace-text-in-files-in-linux/
+¿Qué comando se utiliza para cambiar los permisos de un archivo solo para el propietario en Linux?;chmod u+rx;chmod g+rx;chmod o+rx;chmod a+rx;0;https://linuxize.com/post/chmod-command-in-linux/
+¿Qué significa el permiso 'p' en Linux cuando está en el bit de ejecución de un archivo?;Public;Personal;Portable;Private;3;https://www.linux.com/training-tutorials/understanding-linux-file-permissions/
+¿Cuál es el comando para eliminar un archivo en Linux?;rm;delete;erase;del;0;https://linuxize.com/post/linux-rm-command/
+¿Qué comando se utiliza para ver la ubicación del directorio actual en Linux?;pwd;cd;ls;dir;0;https://linuxize.com/post/linux
