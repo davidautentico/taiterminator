@@ -1,0 +1,48 @@
+Pregunta;Opción 1;Opción 2;Opción 3;Opción 4;Respuesta Correcta;Referencia
+¿Qué comando se utiliza para cambiar el directorio actual en Linux?;cd;pwd;ls;mv;0;https://linuxize.com/post/linux-cd-command/
+¿Cuál es el comando para listar archivos y directorios en Linux?;ls;dir;list;pwd;0;https://linuxize.com/post/linux-ls-command/
+¿Qué comando muestra el tamaño de un archivo en Linux?;du;size;ls -s;wc -c;0;https://linuxize.com/post/linux-du-command/
+¿Cuál es el comando para ver los procesos en ejecución en Linux?;ps;top;kill;pgrep;0;https://www.cyberciti.biz/faq/show-all-running-processes-in-linux/
+¿Qué comando se utiliza para ver las últimas líneas de un archivo en Linux?;tail;head;more;cat;0;https://linuxize.com/post/linux-tail-command/
+¿Cuál es el comando para cambiar el nombre de un archivo en Linux?;mv;rename;cp;name;0;https://linuxize.com/post/linux-rename-file/
+¿Qué comando se utiliza para mostrar el contenido de un archivo en Linux?;cat;ls;echo;more;0;https://linuxize.com/post/linux-cat-command/
+¿Cuál es el comando para crear un nuevo directorio en Linux?;mkdir;touch;cp;mv;0;https://linuxize.com/post/linux-mkdir-command/
+¿Qué comando se utiliza para eliminar archivos en Linux?;rm;delete;erase;del;0;https://linuxize.com/post/linux-rm-command/
+¿Cuál es el comando para buscar texto dentro de archivos en Linux?;grep;find;awk;sed;0;https://linuxize.com/post/grep-command-in-linux/
+¿Qué comando se utiliza para comprimir archivos en Linux?;tar;zip;gzip;compress;0;https://linuxize.com/post/how-to-compress-and-extract-files-in-linux/
+¿Cuál es el comando para mostrar el espacio libre y utilizado en los sistemas de archivos de Linux?;df;du;fs;lsblk;0;https://linuxize.com/post/checking-disk-space-on-linux-with-du-and-df/
+¿Qué comando se utiliza para cambiar los permisos de un archivo en Linux?;chmod;chown;ls;grep;0;https://linuxize.com/post/chmod-command-in-linux/
+¿Cuál es el comando para cambiar el propietario de un archivo en Linux?;chown;chmod;chgrp;groupmod;0;https://www.tecmint.com/change-ownership-of-file-or-directory-in-linux/
+¿Qué comando se utiliza para encontrar archivos en Linux basado en su nombre?;find;grep;locate;search;0;https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/
+¿Cuál es el comando para mostrar el manual de un comando en Linux?;man;help;info;usage;0;https://linuxize.com/post/how-to-use-the-man-command/
+¿Qué comando se utiliza para mostrar la ubicación del directorio actual en Linux?;pwd;cd;ls;dir;0;https://linuxize.com/post/linux-pwd-command/
+¿Cuál es el comando para cambiar los permisos de un archivo de manera recursiva en Linux?;chmod -R;chown -R;ls -R;grep -R;0;https://linuxize.com/post/chmod-recursively-linux/
+¿Qué comando se utiliza para crear un archivo vacío en Linux?;touch;mkdir;cp;mv;0;https://linuxize.com/post/create-empty-file-in-linux/
+¿Cuál es el comando para listar todos los archivos en un directorio, incluyendo los ocultos?;ls -a;ls -l;ls -h;ls -o;0;https://linuxize.com/post/how-to-list-all-files-in-directory-in-linux/
+¿Qué comando se utiliza para copiar archivos y directorios en Linux?;cp;mv;rsync;scp;0;https://linuxize.com/post/how-to-copy-files-and-directories-in-linux/
+¿Cuál es el comando para mostrar las primeras líneas de un archivo en Linux?;head;tail;more;cat;0;https://linuxize.com/post/linux-head-command/
+¿Qué comando se utiliza para mostrar el tamaño de un directorio en Linux?;du -sh;ls -s;df -h;dir -s;0;https://linuxize.com/post/check-directory-size-in-linux/
+¿Cuál es el comando para editar un archivo en Linux desde la línea de comandos?;vi;vim;nano;edit;0;https://linuxize.com/post/how-to-use-vi-editor-in-linux/
+¿Qué comando se utiliza para ver los permisos de un archivo en Linux?;ls -l;chmod;chown;grep;0;https://linuxize.com/post/how-to-list-files-and-directories-permissions-in-linux/
+¿Cuál es el comando para mostrar las últimas líneas de múltiples archivos en Linux?;tail;head;more;cat;0;https://www.howtogeek.com/444010/how-to-use-the-tail-command-on-linux/
+¿Qué comando se utiliza para buscar y reemplazar texto dentro de un archivo en Linux?;sed;awk;replace;find;0;https://linuxize.com/post/how-to-use-sed-to-find-and-replace-text-in-files-in-linux/
+¿Cuál es el comando para ver el contenido de un archivo página por página en Linux?;less;more;cat;head;0;https://linuxize.com/post/using-the-less-command-in-linux/
+¿Qué comando se utiliza para mostrar información sobre el sistema en Linux?;uname;info;sysinfo;system;0;https://linuxize.com/post/how-to-check-linux-system-information/
+¿Cuál es el comando para cambiar los permisos de un archivo solo para el propietario en Linux?;chmod u+rx;chmod g+rx;chmod o+rx;chmod a+rx;0;https://linuxize.com/post/chmod-command-in-linux/
+¿Qué comando se utiliza para contar el número de líneas en un archivo en Linux?;wc -l;wc -c;grep -c;tail -n;0;https://linuxize.com/post/how-to-count-lines-in-a-file-in-linux/
+¿Cuál es el comando para listar todos los procesos en ejecución en Linux?;ps -aux;top;kill;htop;0;https://www.howtogeek.com/109655/how-to-use-the-ps-command-to-monitor-linux-processes/
+¿Qué comando se utiliza para ver y cambiar el nombre de un archivo en Linux?;mv;rename;cp;name;0;https://linuxize.com/post/linux-rename-file/
+¿Cuál es el comando para ver las estadísticas de uso de CPU en Linux?;top;htop;ps;cat /proc/cpuinfo;0;https://linuxize.com/post/linux-top-command/
+¿Qué comando se utiliza para ejecutar un script en segundo plano en Linux?;nohup;bg;fg;exec;0;https://linuxize.com/post/how-to-run-linux-commands-in-background/
+¿Cuál es el comando para cambiar la contraseña de un usuario en Linux?;passwd;password;change;usermod -p;0;https://linuxize.com/post/how-to-change-a-users-password-in-linux/
+¿Qué comando se utiliza para ver la fecha y hora actual en Linux?;date;time;clock;now;0;https://linuxize.com/post/how-to-display-the-date-and-time-using-linux-command-line/
+¿Cuál es el comando para mostrar la versión del kernel en Linux?;uname -r;kernel -v;version;linux -k;0;https://linuxize.com/post/how-to-check-linux-kernel-version/
+¿Qué comando se utiliza para listar los servicios en ejecución en Linux?;systemctl;service;ps;top;0;https://linuxize.com/post/how-to-list-services-in-linux/
+¿Cuál es el comando para ver las variables de entorno en Linux?;env;echo $PATH;printenv;set;0;https://linuxize.com/post/how-to-set-and-list-environment-variables-in-linux/
+¿Qué comando se utiliza para montar un sistema de archivos en Linux?;mount;umount;fs;mountfs;0;https://linuxize.com/post/how-to-mount-and-unmount-file-systems-in-linux/
+¿Cuál es el comando para mostrar el contenido de un archivo en hexadecimal en Linux?;hexdump;xxd;cat;more;0;https://linuxize.com/post/how-to-use-hexdump-command-in-linux/
+¿Qué comando se utiliza para ejecutar un comando con privilegios de superusuario en Linux?;sudo;su;root;superuser;0;https://linuxize.com/post/how-to-use-sudo-command-in-linux/
+¿Cuál es el comando para mostrar la ruta de búsqueda de comandos en Linux?;echo $PATH;printenv PATH;env;which;0;https://linuxize.com/post/how-to-set-and-list-environment-variables-in-linux/
+¿Qué comando se utiliza para enviar un archivo a través de SSH en Linux?;scp;rsync;sftp;ssh;0;https://linuxize.com/post/how-to-use-scp-command-to-securely-transfer-files/
+¿Cuál es el comando para ver la lista de usuarios conectados en Linux?;who;users;w;uptime;0;https://linuxize.com/post/how-to-display-who-is-logged-in-linux/
+¿Qué comando se utiliza para enviar la salida de un comando a un archivo en Linux?;>;>>;|;tee;0;https://linuxize.com/post/how-to-redirect-stdout-to-a-file-in-linux/
