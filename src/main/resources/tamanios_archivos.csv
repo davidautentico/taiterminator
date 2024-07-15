@@ -1,0 +1,16 @@
+Pregunta;Opción 1;Opción 2;Opción 3;Opción 4;Respuesta Correcta;Referencia
+¿Cuál es el tamaño máximo de archivo en el sistema de archivos ext3?;2 GB;4 GB;16 GB;2 TB;3;https://en.wikipedia.org/wiki/Ext3
+¿Cuál es el tamaño máximo de archivo que puede soportar el sistema de archivos NTFS?;4 GB;16 TB;256 TB;16 EB;2;https://en.wikipedia.org/wiki/NTFS
+¿Qué tamaño máximo de archivo soporta el sistema de archivos ext4?;16 TB;1 EB;4 TB;16 EB;1;https://en.wikipedia.org/wiki/Ext4
+¿Cuál es el tamaño máximo de volumen en el sistema de archivos APFS de Apple?;16 TB;8 EB;2 PB;8 PB;1;https://en.wikipedia.org/wiki/Apple_File_System
+¿Qué sistema de archivos utiliza Windows que permite un tamaño máximo de archivo de hasta 16 EB?;FAT32;NTFS;ReFS;exFAT;2;https://en.wikipedia.org/wiki/ReFS
+¿Cuál es el tamaño máximo de archivo en el sistema de archivos FAT32?;4 GB;2 TB;16 GB;256 TB;0;https://en.wikipedia.org/wiki/File_Allocation_Table
+¿Cuál es el tamaño máximo de volumen soportado por el sistema de archivos ext3?;4 TB;16 TB;32 TB;2 TB;3;https://en.wikipedia.org/wiki/Ext3
+¿Qué tamaño máximo de archivo soporta el sistema de archivos ReFS utilizado en Windows Server?;256 TB;16 EB;1 PB;16 TB;1;https://en.wikipedia.org/wiki/ReFS
+¿Cuál es el tamaño máximo de volumen para un sistema de archivos ext4?;1 PB;16 PB;1 EB;16 EB;3;https://en.wikipedia.org/wiki/Ext4
+¿Cuál es el tamaño máximo de archivo que puede manejar el sistema de archivos exFAT?;16 GB;16 TB;256 TB;16 EB;1;https://en.wikipedia.org/wiki/ExFAT
+¿Qué sistema de archivos tiene un tamaño máximo de volumen de 8 EB y es usado principalmente en macOS?;HFS+;APFS;NTFS;exFAT;1;https://en.wikipedia.org/wiki/Apple_File_System
+¿Cuál es el tamaño máximo de archivo para el sistema de archivos HFS+ utilizado en versiones anteriores de macOS?;4 GB;2 TB;8 EB;8 TB;1;https://en.wikipedia.org/wiki/HFS_Plus
+¿Cuál es el tamaño máximo de volumen que el sistema de archivos FAT32 puede manejar?;2 TB;16 TB;8 TB;32 TB;0;https://en.wikipedia.org/wiki/File_Allocation_Table
+¿Qué tamaño máximo de archivo puede soportar el sistema de archivos ZFS?;16 TB;16 PB;256 TB;16 EB;3;https://en.wikipedia.org/wiki/ZFS
+¿Cuál es el tamaño máximo de volumen soportado por el sistema de archivos Btrfs?;16 EB;1 PB;2 EB;256 TB;0;https://en.wikipedia.org/wiki/Btrfs

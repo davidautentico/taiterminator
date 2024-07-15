@@ -1,0 +1,16 @@
+Pregunta;Opción 1;Opción 2;Opción 3;Opción 4;Respuesta Correcta;Referencia
+¿Qué estándar ISO define el lenguaje de consulta estructurada SQL para bases de datos?;ISO/IEC 27001;ISO/IEC 20000;ISO/IEC 14882;ISO/IEC 9075;3;https://en.wikipedia.org/wiki/SQL
+¿Cuál estándar ISO especifica los requisitos para un sistema de gestión de seguridad de la información (SGSI)?;ISO/IEC 27001;ISO/IEC 20000;ISO/IEC 14882;ISO/IEC 9075;0;https://en.wikipedia.org/wiki/ISO/IEC_27001
+¿Qué estándar ISO se enfoca en los requisitos para servicios de tecnología de la información, gestión de servicios y calidad?;ISO/IEC 20000;ISO/IEC 27001;ISO/IEC 14882;ISO/IEC 9075;0;https://en.wikipedia.org/wiki/ISO/IEC_20000
+¿Cuál estándar ISO/IEC es conocido por definir el lenguaje de programación C++?;ISO/IEC 27002;ISO/IEC 20000;ISO/IEC 14882;ISO/IEC 8859;2;https://en.wikipedia.org/wiki/ISO/IEC_14882
+¿Qué estándar ISO proporciona directrices para la práctica de seguridad de la información?;ISO/IEC 27002;ISO/IEC 27001;ISO/IEC 20000;ISO/IEC 14882;0;https://en.wikipedia.org/wiki/ISO/IEC_27002
+¿Cuál estándar ISO se relaciona con la codificación de caracteres en sistemas informáticos y técnicas de comunicación?;ISO/IEC 8859;ISO/IEC 27001;ISO/IEC 20000;ISO/IEC 14882;0;https://en.wikipedia.org/wiki/ISO/IEC_8859
+¿Qué estándar ISO trata sobre los métodos de prueba de software?;ISO/IEC 29119;ISO/IEC 27002;ISO/IEC 20000;ISO/IEC 9075;0;https://en.wikipedia.org/wiki/ISO/IEC_29119
+¿Cuál estándar ISO es fundamental para el intercambio de información electrónica en salud?;ISO/IEC 13606;ISO/IEC 27001;ISO/IEC 20000;ISO/IEC 14882;0;https://en.wikipedia.org/wiki/ISO_13606
+¿Qué estándar ISO/IEC define el formato de intercambio de datos electrónicos para la administración, comercio y transporte?;ISO/IEC 9735;ISO/IEC 27002;ISO/IEC 8859;ISO/IEC 29119;0;https://en.wikipedia.org/wiki/ISO/IEC_9735
+¿Cuál estándar ISO establece las normas para el diseño ergonómico de sistemas interactivos?;ISO 9241;ISO/IEC 27001;ISO/IEC 8859;ISO/IEC 20000;0;https://en.wikipedia.org/wiki/ISO_9241
+¿Qué estándar ISO se centra en los protocolos de comunicación para tarjetas inteligentes?;ISO/IEC 7816;ISO/IEC 27001;ISO/IEC 20000;ISO/IEC 9075;0;https://en.wikipedia.org/wiki/ISO/IEC_7816
+¿Cuál estándar ISO se utiliza para la identificación automática y la captura de datos utilizando códigos de barras?;ISO/IEC 15417;ISO/IEC 27002;ISO/IEC 29119;ISO/IEC 9735;0;https://en.wikipedia.org/wiki/Code_128
+¿Qué estándar ISO/IEC define los formatos de archivos de imagen digital, incluido JPEG?;ISO/IEC 10918;ISO/IEC 27001;ISO/IEC 20000;ISO/IEC 7816;0;https://en.wikipedia.org/wiki/JPEG
+¿Cuál estándar ISO regula la seguridad de la tecnología de la información para servicios en la nube?;ISO/IEC 27017;ISO/IEC 27001;ISO/IEC 8859;ISO/IEC 20000;0;https://en.wikipedia.org/wiki/ISO/IEC_27017
+¿Qué estándar ISO/IEC se ocupa de la interoperabilidad y la seguridad en la identificación biométrica?;ISO/IEC 19794;ISO/IEC 27002;ISO/IEC 29119;ISO/IEC 9735;0;https://en.wikipedia.org/wiki/ISO/IEC_19794

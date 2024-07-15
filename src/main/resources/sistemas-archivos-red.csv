@@ -1,0 +1,21 @@
+Pregunta;Opción 1;Opción 2;Opción 3;Opción 4;Respuesta Correcta;Referencia
+¿Qué sistema de archivos en red es conocido por ser el estándar para sistemas UNIX y Linux?;SMB;NFS;AFP;iSCSI;1;https://en.wikipedia.org/wiki/Network_File_System
+¿Cuál sistema de archivos en red fue desarrollado por Sun Microsystems?;NFS;SMB;CIFS;HDFS;0;https://en.wikipedia.org/wiki/Network_File_System
+¿Qué protocolo de sistema de archivos en red utiliza Microsoft Windows principalmente?;NFS;AFP;SMB/CIFS;FTP;2;https://en.wikipedia.org/wiki/Server_Message_Block
+¿Cuál es la principal función de los sistemas de archivos en red?;Mejorar la velocidad de la CPU;Aumentar la capacidad de almacenamiento local;Permitir el acceso a archivos sobre una red;Reducir el uso de ancho de banda;2;https://en.wikipedia.org/wiki/Network_File_System
+¿Qué sistema de archivos en red es utilizado predominantemente en entornos Apple Macintosh?;SMB;NFS;AFP;DFS;2;https://en.wikipedia.org/wiki/Apple_Filing_Protocol
+¿Qué sistema de archivos en red se basa en el modelo cliente-servidor?;iSCSI;NFS;exFAT;Ext4;1;https://en.wikipedia.org/wiki/Network_File_System
+¿Qué versión de NFS introdujo mejoras significativas en la seguridad y el soporte de multithreading?;NFSv2;NFSv3;NFSv4;NFSv1;2;https://en.wikipedia.org/wiki/Network_File_System
+¿Cuál es una característica clave de SMB/CIFS?;Es predominantemente usado en Linux;Soporta cifrado nativo;No permite compartir impresoras;Solo funciona en redes pequeñas;1;https://en.wikipedia.org/wiki/Server_Message_Block
+¿Qué sistema de archivos en red fue diseñado para funcionar sobre TCP/IP?;NFS;AFP;FTP;All of the above;0;https://en.wikipedia.org/wiki/Network_File_System
+¿Cuál es la diferencia principal entre SMB y NFS?;SMB es más rápido que NFS;NFS es más seguro que SMB;SMB es más adecuado para redes Windows;NFS no permite compartir archivos;2;https://en.wikipedia.org/wiki/Comparison_of_file_systems
+¿Qué sistema de archivos en red está diseñado específicamente para sistemas distribuidos a gran escala?;HDFS;NFS;CIFS;AFP;0;https://en.wikipedia.org/wiki/Apache_Hadoop
+¿Cómo se conoce comúnmente a CIFS en versiones más recientes?;SMB;NFS;AFP;FTP;0;https://en.wikipedia.org/wiki/Server_Message_Block
+¿Qué protocolo de archivo es utilizado por Network Attached Storage (NAS) devices?;iSCSI;NFS;SMB;Both B and C;3;https://en.wikipedia.org/wiki/Network-attached_storage
+¿Cuál sistema de archivos en red es más eficiente en el manejo de operaciones de escritura/lectura a gran escala?;SMB;NFS;HDFS;AFP;2;https://en.wikipedia.org/wiki/Apache_Hadoop
+¿Qué tecnología se utiliza para emular dispositivos de almacenamiento en sistemas de archivos en red?;FTP;iSCSI;AFP;DFS;1;https://en.wikipedia.org/wiki/ISCSI
+¿Cuál de estos NO es un sistema de archivos en red?;ext4;SMB;NFS;CIFS;0;https://en.wikipedia.org/wiki/Ext4
+¿Qué sistema de archivos permite la operación de archivos dispersos entre múltiples servidores?;DFS;AFP;FAT32;exFAT;0;https://en.wikipedia.org/wiki/Distributed_File_System_(Microsoft)
+¿Cuál protocolo de archivo es conocido por su implementación simple y su eficiencia en sistemas UNIX?;NFS;SMB;iSCSI;CIFS;0;https://en.wikipedia.org/wiki/Network_File_System
+¿Qué sistema de archivos en red permite integrar sistemas Windows y UNIX/Linux?;NFS;SMB/CIFS;AFP;iSCSI;1;https://en.wikipedia.org/wiki/Server_Message_Block
+¿Cuál sistema de archivos en red es mejor para interacciones de alta seguridad con soporte integrado para Kerberos?;NFSv4;SMB/CIFS;AFP;DFS;0;https://en.wikipedia.org/wiki/Network_File_System

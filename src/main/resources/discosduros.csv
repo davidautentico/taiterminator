@@ -1,0 +1,31 @@
+Pregunta;Opción 1;Opción 2;Opción 3;Opción 4;Respuesta Correcta;Referencia
+¿Cuál es la interfaz más comúnmente utilizada en los discos duros modernos?;IDE;SATA;SCSI;FireWire;1;https://en.wikipedia.org/wiki/Serial_ATA
+¿Qué tipo de disco duro utiliza platos magnéticos para almacenar datos?;SSD;HDD;Hybrid Drive;NAND;1;https://en.wikipedia.org/wiki/Hard_disk_drive
+¿Cuál es la principal ventaja de un SSD sobre un HDD?;Mayor capacidad de almacenamiento;Menor consumo de energía;Mayor velocidad de transferencia;Más económico;2;https://en.wikipedia.org/wiki/Solid-state_drive
+¿Qué tipo de memoria se utiliza principalmente en un SSD?;DRAM;SRAM;Flash;EPROM;2;https://en.wikipedia.org/wiki/Flash_memory
+¿Qué significa la sigla HDD?;High-Density Drive;Hard Disk Drive;Hybrid Disk Drive;Hard Drive Disk;1;https://en.wikipedia.org/wiki/Hard_disk_drive
+¿Cuál es la velocidad típica de rotación de un disco duro de 3.5 pulgadas?;5400 RPM;7200 RPM;10000 RPM;15000 RPM;1;https://en.wikipedia.org/wiki/Hard_disk_drive_performance_characteristics
+¿Qué tecnología de conexión permite velocidades de transferencia de hasta 6 Gbps en discos duros?;USB 3.0;Thunderbolt;SATA III;eSATA;2;https://en.wikipedia.org/wiki/Serial_ATA
+¿Cuál es una característica común de los discos duros híbridos?;No tienen partes móviles;Utilizan tanto platos como memoria flash;Solo utilizan flash para caché;No soportan SATA;1;https://en.wikipedia.org/wiki/Hybrid_drive
+¿Cómo se denomina el proceso por el cual un SSD reorganiza los datos para mejorar la eficiencia?;Fragmentación;Defragmentación;Garbage collection;Data wiping;2;https://en.wikipedia.org/wiki/Garbage_collection_(SSD)
+¿Qué capacidad de disco duro sería común para un servidor de alta capacidad?;500 GB;1 TB;10 TB;100 TB;2;https://en.wikipedia.org/wiki/Hard_disk_drive
+¿Qué característica importante tienen los discos SSD que afecta su longevidad y desempeño?;Tiempo de búsqueda;Latencia de rotación;Resistencia a la escritura;Tamaño de sector;2;https://en.wikipedia.org/wiki/Write_amplification
+¿Qué tipo de disco duro se recomendaría para aplicaciones que requieren un acceso rápido a los datos, como edición de video?;HDD;SSD;Discos ópticos;Discos magnéticos;1;https://en.wikipedia.org/wiki/Solid-state_drive
+¿En qué se diferencia principalmente un HDD de un SSHD?;En su tamaño físico;En su velocidad de transferencia;En la inclusión de memoria flash en el SSHD;En su tipo de interfaz;2;https://en.wikipedia.org/wiki/Hybrid_drive
+¿Cuál es el principal beneficio de un disco duro con interfaz NVMe sobre uno con interfaz SATA?;Mayor capacidad de almacenamiento;Menor consumo de energía;Menor costo;Mayor velocidad de transferencia;3;https://en.wikipedia.org/wiki/NVM_Express
+¿Cuántos pines tiene un conector SATA estándar para discos duros?;4 pines;7 pines;15 pines;40 pines;1;https://en.wikipedia.org/wiki/Serial_ATA
+¿Qué medida se utiliza habitualmente para describir el rendimiento de los discos duros?;Bytes por segundo;IOPS (Entradas/Salidas por segundo);Ciclos por segundo;Revoluciones por minuto;1;https://en.wikipedia.org/wiki/IOPS
+¿Qué tecnología de disco duro utiliza cabezales de lectura/escritura que flotan sobre discos giratorios?;SSD;HDD;RAID;NAS;1;https://en.wikipedia.org/wiki/Hard_disk_drive
+¿Qué tipo de disco duro ofrece mejor resistencia a los golpes y movimientos?;HDD;SSD;Disco óptico;Disco magnético;1;https://en.wikipedia.org/wiki/Solid-state_drive
+¿Qué capacidad de transferencia de datos ofrece la interfaz Thunderbolt 3 en discos duros?;10 Gbps;20 Gbps;40 Gbps;80 Gbps;2;https://en.wikipedia.org/wiki/Thunderbolt_(interface)
+¿Cuál es un ejemplo de uso común para un disco duro con velocidad de rotación de 5400 RPM?;Servidores de alto rendimiento;Estaciones de trabajo gráficas;Uso doméstico general;Almacenamiento en frío para centros de datos;2;https://en.wikipedia.org/wiki/Hard_disk_drive_performance_characteristics
+¿Cuánto puede durar un SSD en uso típico antes de comenzar a degradarse significativamente?;1-2 años;3-5 años;5-7 años;Más de 10 años;2;https://en.wikipedia.org/wiki/Solid-state_drive
+¿Qué tipo de disco duro utiliza platos de vidrio o cerámica?;HDD;SSD;SHDD;FDD;0;https://en.wikipedia.org/wiki/Hard_disk_drive
+¿Cuál es una ventaja de los discos duros magnéticos sobre los discos de estado sólido?;Velocidad de acceso a datos;Capacidad de almacenamiento por costo;Resistencia a la escritura;Consumo de energía;1;https://en.wikipedia.org/wiki/Hard_disk_drive
+¿Cómo se calcula el IOPS de un disco duro?;Multiplicando la tasa de transferencia por la latencia;Dividiendo la tasa de transferencia por el tamaño del sector;Dividiendo la tasa de transferencia por la latencia;Multiplicando la tasa de transferencia por el número de operaciones;2;https://en.wikipedia.org/wiki/IOPS
+¿Qué significa RAID en el contexto de discos duros?;Redundant Array of Independent Disks;Random Access of Independent Disks;Redundant Access of Integrated Disks;Random Array of Integrated Disks;0;https://en.wikipedia.org/wiki/RAID
+¿Qué factor limita la velocidad de transferencia en un HDD más que en un SSD?;El tipo de datos almacenados;La interfaz de conexión al sistema;La velocidad a la que el disco puede girar;La cantidad de memoria en el disco;2;https://en.wikipedia.org/wiki/Hard_disk_drive_performance_characteristics
+¿Cuál es una limitación común de los discos SSD comparado con los HDD en términos de uso diario?;Capacidad de almacenamiento;Durabilidad física;Resistencia a campos magnéticos;Disponibilidad y variedad de opciones;0;https://en.wikipedia.org/wiki/Solid-state_drive
+¿Qué mejora significativa en términos de conectividad introdujo SATA III sobre versiones anteriores?;Compatibilidad con versiones anteriores;Mayor velocidad de transferencia;Soporte para múltiples discos en un solo cable;Reducción de la latencia;1;https://en.wikipedia.org/wiki/Serial_ATA
+¿Qué unidad se utiliza para medir la velocidad de rotación en los discos duros?;Bits por segundo;Bytes por segundo;Revoluciones por minuto;Hertz;2;https://en.wikipedia.org/wiki/Hard_disk_drive_performance_characteristics
+¿Qué tecnología de discos duros es más adecuada para sistemas que requieren una alta disponibilidad y fiabilidad?;HDD con RAID;SSD con RAID;HDD sin RAID;SSD sin RAID;0;https://en.wikipedia.org/wiki/RAID

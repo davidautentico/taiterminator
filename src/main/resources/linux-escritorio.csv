@@ -1,0 +1,16 @@
+Pregunta;Opción 1;Opción 2;Opción 3;Opción 4;Respuesta Correcta;Referencia
+¿Cuál es el entorno de escritorio predeterminado en Ubuntu?;XFCE;KDE;GNOME;LXDE;2;https://en.wikipedia.org/wiki/GNOME
+¿Qué entorno de escritorio de Linux es conocido por su simplicidad y ligereza, ideal para hardware de bajo rendimiento?;GNOME;KDE;LXDE;Cinnamon;2;https://en.wikipedia.org/wiki/LXDE
+¿Qué entorno de escritorio utiliza Kubuntu por defecto?;GNOME;KDE Plasma;XFCE;MATE;1;https://en.wikipedia.org/wiki/KDE_Plasma
+¿Cuál entorno de escritorio se deriva de GNOME 2 después de la transición a GNOME 3?;XFCE;KDE;LXDE;MATE;3;https://en.wikipedia.org/wiki/MATE_(software)
+¿Qué entorno de escritorio es bien conocido por su configurabilidad y características extensas, a menudo comparado con Windows en términos de funcionalidad?;GNOME;KDE Plasma;XFCE;Budgie;1;https://en.wikipedia.org/wiki/KDE_Plasma
+¿Cuál entorno de escritorio es el predeterminado en Fedora Workstation?;GNOME;KDE;Cinnamon;Deepin;0;https://getfedora.org/
+¿Qué entorno de escritorio es famoso por su diseño elegante y moderno, utilizado en Linux Mint Cinnamon Edition?;MATE;LXDE;KDE;Cinnamon;3;https://en.wikipedia.org/wiki/Cinnamon_(software)
+¿Cuál es el entorno de escritorio ligero que es el sucesor espiritual de LXDE, utilizando tecnologías más modernas como Qt?;XFCE;LXQt;GNOME;Enlightenment;1;https://en.wikipedia.org/wiki/LXQt
+¿Qué entorno de escritorio está diseñado para ser simple y fácil de usar, a menudo recomendado para nuevos usuarios de Linux?;GNOME;KDE;Budgie;XFCE;0;https://en.wikipedia.org/wiki/GNOME
+¿Qué entorno de escritorio fue originalmente parte de un proyecto para crear un sistema operativo completo basado en la interfaz gráfica?;Enlightenment;XFCE;GNOME;KDE;0;https://en.wikipedia.org/wiki/Enlightenment_(software)
+¿Cuál entorno de escritorio de Linux se enfoca en la eficiencia energética y es adecuado para sistemas solares o baterías?;XFCE;LXDE;Enlightenment;MATE;2;https://en.wikipedia.org/wiki/Enlightenment_(software)
+¿Qué entorno de escritorio de Linux se caracteriza por su estilo visual que imita a MacOS, con un enfoque en una estética refinada?;Budgie;Deepin;GNOME;KDE;0;https://en.wikipedia.org/wiki/Budgie_(desktop_environment)
+¿Cuál entorno de escritorio ofrece una experiencia similar a Android con un diseño centrado en la facilidad de uso y la accesibilidad?;Deepin;GNOME;LXQt;XFCE;0;https://en.wikipedia.org/wiki/Deepin
+¿Qué entorno de escritorio fue desarrollado para integrarse bien con las aplicaciones basadas en web y enfocado en la eficiencia de recursos?;Peppermint;LXDE;Budgie;MATE;0;https://en.wikipedia.org/wiki/Peppermint_OS
+¿Qué entorno de escritorio incluye un sistema de menús adaptable y características que facilitan el uso para personas con necesidades de accesibilidad?;GNOME;KDE;Cinnamon;XFCE;0;https://en.wikipedia.org/wiki/GNOME

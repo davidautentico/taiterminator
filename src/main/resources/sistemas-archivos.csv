@@ -1,0 +1,26 @@
+Pregunta;Opción 1;Opción 2;Opción 3;Opción 4;Respuesta Correcta;Referencia
+¿Qué sistema de archivos utiliza Windows 10 por defecto?;NTFS;FAT32;exFAT;ReFS;0;https://en.wikipedia.org/wiki/NTFS
+¿Cuál es el sistema de archivos predilecto de macOS Catalina?;HFS+;APFS;ext4;FAT32;1;https://en.wikipedia.org/wiki/Apple_File_System
+¿Qué sistema de archivos es el estándar en las distribuciones más recientes de Linux como Ubuntu?;ext4;NTFS;XFS;Btrfs;0;https://en.wikipedia.org/wiki/Ext4
+¿Cuál sistema de archivos es conocido por su uso en dispositivos de almacenamiento USB por su compatibilidad entre plataformas?;NTFS;HFS+;exFAT;FAT16;2;https://en.wikipedia.org/wiki/ExFAT
+¿Qué sistema de archivos de alta integridad es utilizado por Windows Server para la gestión de datos a gran escala?;NTFS;ReFS;FAT32;ext3;1;https://en.wikipedia.org/wiki/ReFS
+¿Qué sistema de archivos fue desarrollado específicamente para dispositivos con almacenamiento flash en sistemas Linux?;ext4;JFS;F2FS;ZFS;2;https://en.wikipedia.org/wiki/F2FS
+¿Cuál es el sistema de archivos utilizado principalmente en los dispositivos con iOS?;ext4;APFS;HFS+;Btrfs;1;https://en.wikipedia.org/wiki/Apple_File_System
+¿Qué sistema de archivos es comúnmente utilizado por FreeBSD para almacenamiento a gran escala?;UFS;ZFS;ext3;XFS;1;https://en.wikipedia.org/wiki/ZFS
+¿Cuál sistema de archivos es ampliamente reconocido por su capacidad de manejar grandes volúmenes de datos en Linux?;ext3;ext4;XFS;JFS;2;https://en.wikipedia.org/wiki/XFS
+¿Qué sistema de archivos se utiliza comúnmente en cámaras digitales y otros dispositivos de consumo?;NTFS;FAT32;APFS;ReFS;1;https://en.wikipedia.org/wiki/FAT32
+¿Qué sistema de archivos fue el predecesor de NTFS en los sistemas operativos Windows?;FAT16;FAT32;HPFS;ext2;1;https://en.wikipedia.org/wiki/FAT32
+¿Cuál es el sistema de archivos recomendado para particiones de arranque en sistemas Linux?;Btrfs;ext4;XFS;FAT32;1;https://en.wikipedia.org/wiki/Ext4
+¿Qué sistema de archivos es utilizado por Solaris para manejar eficientemente bases de datos grandes?;JFS;HPFS;ZFS;ext4;2;https://en.wikipedia.org/wiki/ZFS
+¿Qué sistema de archivos de código abierto es conocido por su robustez en sistemas operativos Linux?;Btrfs;ext3;APFS;NTFS;0;https://en.wikipedia.org/wiki/Btrfs
+¿Cuál es el sistema de archivos más utilizado en tarjetas SD para dispositivos Android?;ext4;NTFS;exFAT;FAT32;2;https://en.wikipedia.org/wiki/ExFAT
+¿Qué sistema de archivos se diseñó para ser usado en sistemas Windows de alto rendimiento y servidores?;ReFS;NTFS;FAT32;XFS;0;https://en.wikipedia.org/wiki/ReFS
+¿Cuál es el sistema de archivos predeterminado para los nuevos dispositivos de almacenamiento formatos en Windows 10?;NTFS;FAT32;exFAT;ReFS;2;https://en.wikipedia.org/wiki/ExFAT
+¿Qué sistema de archivos utiliza Google para su sistema operativo Chrome OS?;ext2;ext4;XFS;FAT32;1;https://en.wikipedia.org/wiki/Ext4
+¿Qué sistema de archivos es utilizado por los dispositivos de almacenamiento de red NAS para una mejor eficiencia?;ZFS;NTFS;ext3;Btrfs;0;https://en.wikipedia.org/wiki/ZFS
+¿Cuál es el sistema de archivos estándar para dispositivos extraíbles en sistemas operativos macOS?;APFS;HFS+;FAT32;exFAT;3;https://en.wikipedia.org/wiki/ExFAT
+¿Qué sistema de archivos se utiliza principalmente para la raíz del sistema operativo en Android?;ext4;Btrfs;F2FS;XFS;0;https://source.android.com/devices/storage/config
+¿Qué sistema de archivos se recomienda para el almacenamiento interno extendido en servidores Linux?;XFS;ext4;Btrfs;NTFS;2;https://en.wikipedia.org/wiki/Btrfs
+¿Qué sistema de archivos ha sido optimizado para uso en grandes servidores y sistemas de archivos distribuidos?;ZFS;FAT32;NTFS;HFS+;0;https://en.wikipedia.org/wiki/ZFS
+¿Cuál es el sistema de archivos por defecto en las instalaciones de Oracle Linux y Red Hat Enterprise Linux?;XFS;ext4;Btrfs;ReFS;0;https://en.wikipedia.org/wiki/XFS
+¿Qué sistema de archivos ofrece la mejor compatibilidad entre macOS y Windows sin necesidad de software adicional?;HFS+;NTFS;exFAT;APFS;2;https://en.wikipedia.org/wiki/ExFAT

@@ -1,0 +1,11 @@
+Pregunta;Opción 1;Opción 2;Opción 3;Opción 4;Respuesta Correcta;Referencia
+¿Cuál es la unidad de medida estándar para el almacenamiento de datos en discos duros?;Megabytes;Gigabytes;Terabytes;Petabytes;1;https://www.backblaze.com/blog/whats-the-diff-gb-vs-tb/
+¿Qué cantidad de bytes constituye un kilobyte (KB) según el sistema decimal utilizado en almacenamiento de discos duros?;1000 bytes;1024 bytes;2048 bytes;512 bytes;0;https://www.seagate.com/tech-insights/byte-for-byte-understanding-data-sizes-master-ti/
+¿Cuántos bytes hay en un megabyte (MB) en el contexto de almacenamiento de discos duros?;1,000,000 bytes;1,048,576 bytes;100,000 bytes;2,000,000 bytes;0;https://en.wikipedia.org/wiki/Megabyte
+¿Qué unidad se utiliza comúnmente para describir la velocidad de transferencia de datos en discos duros?;Bytes por segundo;Bits por segundo;Hertz;Revoluciones por minuto;0;https://www.lifewire.com/speed-up-your-hard-drive-2640081
+¿Cuál es el equivalente de 1 terabyte en gigabytes en el sistema de almacenamiento de discos duros?;1000 gigabytes;1024 gigabytes;100 gigabytes;2048 gigabytes;0;https://www.cnet.com/tech/computing/whats-a-terabyte/
+¿Qué significa el término "gibibyte"?;Una unidad de medida equivalente a 1,000,000,000 bytes;Una unidad de medida equivalente a 1,073,741,824 bytes;Una unidad de medida utilizada exclusivamente para SSD;Una unidad de medida obsoleta para discos duros;1;https://en.wikipedia.org/wiki/Gibibyte
+¿Cómo se mide comúnmente la capacidad de un disco duro externo en el mercado actual?;En kilobytes y megabytes;En gigabytes y terabytes;Solo en terabytes;En bits y bytes;1;https://www.pcworld.com/article/127105/article.html
+¿Qué unidad de medida es más grande, un terabyte o un petabyte?;Terabyte;Petabyte;Ambas son iguales;Depende del fabricante del disco duro;1;https://www.datacenterknowledge.com/archives/2012/03/14/amazon-adds-petabyte-scale-data-warehouse-service
+¿Cuál es la relación entre megabyte (MB) y gigabyte (GB) en términos de almacenamiento?;1 GB es igual a 10 MB;1 GB es igual a 100 MB;1 GB es igual a 1000 MB;1 GB es igual a 1024 MB;2;https://www.gbmb.org/mb-to-gb
+¿En qué unidades se suele expresar la memoria caché de un disco duro?;Kilobytes;Megabytes;Gigabytes;Todos los anteriores;3;https://www.computerhope.com/jargon/d/diskcach.htm

@@ -1,0 +1,11 @@
+Pregunta;Opción 1;Opción 2;Opción 3;Opción 4;Respuesta Correcta;Referencia
+¿Qué es IPv6?;Una nueva versión de IPTV;Un protocolo de internet obsoleto;Una versión avanzada de IPv4;Un tipo de configuración de red;2;https://en.wikipedia.org/wiki/IPv6
+¿Cuál es el tamaño de las direcciones en IPv6?;32 bits;64 bits;128 bits;256 bits;2;https://en.wikipedia.org/wiki/IPv6
+¿Qué característica de IPv6 elimina la necesidad de NAT (Network Address Translation)?;Direcciones más cortas;Autoconfiguración sin estado;Múltiples direcciones IP por dispositivo;Mejoras en el enrutamiento;1;https://en.wikipedia.org/wiki/IPv6
+¿Qué representa un "segmento" en una dirección IPv6?;Una subdivisión de un octeto;Un grupo de cuatro bits;Ocho grupos de cuatro dígitos hexadecimales;Cuatro grupos de ocho dígitos binarios;2;https://en.wikipedia.org/wiki/IPv6_address
+¿Cómo se especifica una dirección IPv6 en una URL?;Usando paréntesis ();Usando corchetes [];Usando llaves {};Usando guiones -;1;https://en.wikipedia.org/wiki/IPv6_address#Literal_IPv6_addresses_in_network_resource_identifiers
+¿Cuál es la función principal del protocolo ICMPv6 en IPv6?;Controlar la transmisión de datos;Facilitar la autoconfiguración de dispositivos;Proporcionar seguridad adicional;Gestionar el control de errores y mensajes informativos;3;https://en.wikipedia.org/wiki/ICMPv6
+¿Qué tipo de dirección IPv6 es única para cada interfaz de red y comienza con FE80::/10?;Dirección global;Dirección multicast;Dirección de enlace local;Dirección de sitio local;2;https://en.wikipedia.org/wiki/IPv6_address#Link-local_address
+¿Qué mejora la seguridad en IPv6 en comparación con IPv4?;Adopción de DNS;Uso de direcciones más largas;Integración nativa de IPSec;Soporte para más dispositivos;2;https://en.wikipedia.org/wiki/IPv6#Security
+¿Cómo se denomina el proceso que permite la coexistencia entre IPv4 e IPv6 durante la transición?;Dual Stack;Stack Overflow;Single Stack;Stack Exchange;0;https://en.wikipedia.org/wiki/IPv6#Transition_mechanisms
+¿Qué es la transición Dual Stack en el contexto de IPv6?;Usar solo IPv4;Usar solo IPv6;Usar IPv4 e IPv6 simultáneamente;Convertir IPv4 en IPv6 automáticamente;2;https://en.wikipedia.org/wiki/IPv6#Dual-stack

@@ -1,0 +1,21 @@
+Pregunta;Opción 1;Opción 2;Opción 3;Opción 4;Respuesta Correcta;Referencia
+¿Qué arquitectura de CPU utiliza un conjunto reducido de instrucciones?;CISC;RISC;Harvard;Von Neumann;1;https://en.wikipedia.org/wiki/Reduced_instruction_set_computer
+¿Cuál arquitectura se caracteriza por un conjunto complejo de instrucciones?;RISC;CISC;Harvard;Von Neumann;1;https://en.wikipedia.org/wiki/Complex_instruction_set_computer
+¿En qué arquitectura se almacenan las instrucciones de programa y los datos en memorias separadas?;RISC;CISC;Harvard;Von Neumann;2;https://en.wikipedia.org/wiki/Harvard_architecture
+¿Qué arquitectura utiliza una memoria compartida para datos e instrucciones?;RISC;CISC;Harvard;Von Neumann;3;https://en.wikipedia.org/wiki/Von_Neumann_architecture
+¿Cuál arquitectura es conocida por su capacidad de ejecutar instrucciones más complejas directamente desde la memoria?;RISC;CISC;Harvard;Von Neumann;1;https://en.wikipedia.org/wiki/Complex_instruction_set_computer
+¿Qué arquitectura permite una mayor velocidad de procesamiento debido a la simplificación de las instrucciones?;CISC;RISC;Harvard;Von Neumann;1;https://en.wikipedia.org/wiki/Reduced_instruction_set_computer
+¿Qué arquitectura de CPU es más adecuada para optimizar el rendimiento del pipeline?;CISC;RISC;Harvard;Von Neumann;1;https://en.wikipedia.org/wiki/Instruction_pipeline
+¿Cuál de estas arquitecturas utiliza un modelo de memoria única para código y datos?;Harvard;Von Neumann;RISC;CISC;1;https://en.wikipedia.org/wiki/Von_Neumann_architecture
+¿Qué arquitectura fue diseñada para minimizar los tiempos de acceso a memoria y maximizar la velocidad de ejecución?;Von Neumann;Harvard;RISC;CISC;1;https://en.wikipedia.org/wiki/Harvard_architecture
+¿En qué arquitectura se introdujo el concepto de operaciones de lectura/escritura realizadas simultáneamente?;RISC;CISC;Harvard;Von Neumann;2;https://en.wikipedia.org/wiki/Harvard_architecture
+¿Cuál de estas arquitecturas está más orientada a microcontroladores y DSPs?;CISC;RISC;Harvard;Von Neumann;2;https://en.wikipedia.org/wiki/Harvard_architecture
+¿Qué arquitectura a menudo requiere menos transistores, lo que resulta en un menor consumo de energía?;CISC;RISC;Harvard;Von Neumann;1;https://en.wikipedia.org/wiki/Reduced_instruction_set_computer
+¿Cuál de estas afirmaciones es verdadera acerca de la arquitectura de Von Neumann?;Permite la ejecución de instrucciones directamente desde la memoria de almacenamiento;No permite la modificación de las instrucciones almacenadas;Es más rápida que la arquitectura Harvard;Utiliza dos buses de datos separados para instrucciones y datos;0;https://en.wikipedia.org/wiki/Von_Neumann_architecture
+¿Qué arquitectura es más susceptible al "cuello de botella de Von Neumann"?;Harvard;Von Neumann;RISC;CISC;1;https://en.wikipedia.org/wiki/Von_Neumann_bottleneck
+¿Qué arquitectura típicamente tiene una mayor eficiencia en el uso de código debido a instrucciones de tamaño variable?;RISC;CISC;Harvard;Von Neumann;1;https://en.wikipedia.org/wiki/Complex_instruction_set_computer
+¿En qué arquitectura las instrucciones son generalmente de tamaño fijo y requieren menos ciclos de reloj por instrucción?;CISC;RISC;Harvard;Von Neumann;1;https://en.wikipedia.org/wiki/Reduced_instruction_set_computer
+¿Cuál de estas arquitecturas puede realizar operaciones más complejas en un solo ciclo de reloj?;RISC;CISC;Harvard;Von Neumann;1;https://en.wikipedia.org/wiki/Complex_instruction_set_computer
+¿Qué arquitectura ofrece ventajas en la seguridad y velocidad al separar físicamente la memoria de datos y de instrucciones?;Von Neumann;Harvard;RISC;CISC;1;https://en.wikipedia.org/wiki/Harvard_architecture
+¿Cuál de estas arquitecturas de CPU facilita la ejecución especulativa y la predicción de saltos?;CISC;RISC;Harvard;Von Neumann;1;https://en.wikipedia.org/wiki/Speculative_execution
+¿En qué arquitectura es más fácil implementar compiladores debido a la uniformidad de las instrucciones?;CISC;RISC;Harvard;Von Neumann;1;https://en.wikipedia.org/wiki/Reduced_instruction_set_computer

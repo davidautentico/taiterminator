@@ -1,0 +1,26 @@
+Pregunta;Opción 1;Opción 2;Opción 3;Opción 4;Respuesta Correcta;Referencia
+¿Qué estándar IEEE define la aritmética de punto flotante utilizada en computación?;IEEE 802.11;IEEE 754;IEEE 488;IEEE 1394;1;https://en.wikipedia.org/wiki/IEEE_754
+¿Cuál estándar IEEE regula las interconexiones entre dispositivos periféricos y computadoras?;IEEE 1284;IEEE 802.3;IEEE 1394;IEEE 754;2;https://en.wikipedia.org/wiki/IEEE_1394
+¿Qué estándar IEEE se enfoca en la comunicación inalámbrica LAN?;IEEE 802.11;IEEE 802.3;IEEE 754;IEEE 1284;0;https://en.wikipedia.org/wiki/IEEE_802.11
+¿Cuál estándar IEEE se conoce comúnmente como FireWire, utilizado para transferencia de datos de alta velocidad?;IEEE 1284;IEEE 754;IEEE 1394;IEEE 802.11;2;https://en.wikipedia.org/wiki/IEEE_1394
+¿Qué estándar IEEE describe la interfaz para cables paralelos, comúnmente utilizado para impresoras?;IEEE 1284;IEEE 802.11;IEEE 1394;IEEE 802.3;0;https://en.wikipedia.org/wiki/IEEE_1284
+¿Cuál estándar IEEE cubre las especificaciones Ethernet para redes locales?;IEEE 802.11;IEEE 802.3;IEEE 754;IEEE 1394;1;https://en.wikipedia.org/wiki/IEEE_802.3
+¿Qué estándar IEEE es fundamental para el desarrollo de algoritmos en unidades de procesamiento gráfico?;IEEE 754;IEEE 1284;IEEE 802.3;IEEE 802.11;0;https://en.wikipedia.org/wiki/IEEE_754
+¿Cuál estándar IEEE se utiliza para el desarrollo y la implementación de SSDs en términos de interfaz y datos?;IEEE 1667;IEEE 802.11;IEEE 1394;IEEE 1284;0;https://en.wikipedia.org/wiki/IEEE_1667
+¿Qué estándar IEEE regula la seguridad en el almacenamiento de datos, especialmente aplicable a unidades SSD externas?;IEEE 1667;IEEE 802.3;IEEE 1284;IEEE 1394;0;https://en.wikipedia.org/wiki/IEEE_1667
+¿Cuál estándar IEEE define el formato y la transmisión de datos sobre redes ópticas?;IEEE 802.3;IEEE 1901;IEEE 802.11;IEEE 1394;0;https://en.wikipedia.org/wiki/IEEE_802.3
+¿Qué estándar IEEE aborda la conectividad entre dispositivos y sistemas de entretenimiento doméstico?;IEEE 1394;IEEE 802.11;IEEE 1284;IEEE 1901;0;https://en.wikipedia.org/wiki/IEEE_1394
+¿Cuál estándar IEEE es esencial para definir el manejo de precisión y error en cálculos matemáticos en software?;IEEE 754;IEEE 802.3;IEEE 1667;IEEE 1284;0;https://en.wikipedia.org/wiki/IEEE_754
+¿Qué estándar IEEE define protocolos para la distribución de energía y datos sobre líneas de potencia?;IEEE 1901;IEEE 802.3;IEEE 754;IEEE 802.11;0;https://en.wikipedia.org/wiki/IEEE_1901
+¿Cuál estándar IEEE aborda la eficiencia energética en sistemas Ethernet?;IEEE 802.3az;IEEE 802.11;IEEE 1394;IEEE 754;0;https://en.wikipedia.org/wiki/Energy-Efficient_Ethernet
+¿Qué estándar IEEE es conocido por establecer criterios para las redes inalámbricas de área personal?;IEEE 802.15;IEEE 802.11;IEEE 802.3;IEEE 1394;0;https://en.wikipedia.org/wiki/IEEE_802.15
+¿Cuál estándar IEEE ayuda en la implementación de tecnología Bluetooth?;IEEE 802.15.1;IEEE 802.11;IEEE 802.3;IEEE 1394;0;https://en.wikipedia.org/wiki/Bluetooth
+¿Qué estándar IEEE está relacionado con la seguridad de las redes Wi-Fi?;IEEE 802.11i;IEEE 802.15;IEEE 802.3;IEEE 1394;0;https://en.wikipedia.org/wiki/IEEE_802.11i-2004
+¿Cuál estándar IEEE define la tecnología detrás de las redes eléctricas inteligentes?;IEEE 2030;IEEE 1901;IEEE 802.3;IEEE 754;0;https://en.wikipedia.org/wiki/IEEE_2030
+¿Qué estándar IEEE proporciona guías para el desarrollo de software y su documentación?;IEEE 830;IEEE 802.11;IEEE 754;IEEE 1394;0;https://en.wikipedia.org/wiki/IEEE_830
+¿Cuál estándar IEEE se enfoca en los métodos de prueba para software y sistemas?;IEEE 829;IEEE 802.3;IEEE 1667;IEEE 1284;0;https://en.wikipedia.org/wiki/IEEE_829
+¿Qué estándar IEEE trata sobre la implementación de sistemas ciber-físicos?;IEEE 2413;IEEE 802.15;IEEE 754;IEEE 1667;0;https://en.wikipedia.org/wiki/IEEE_2413
+¿Cuál estándar IEEE regula la tecnología de virtualización en computadoras?;IEEE 1906.1;IEEE 802.11;IEEE 754;IEEE 1667;0;https://en.wikipedia.org/wiki/Virtualization
+¿Qué estándar IEEE define la infraestructura para la comunicación en vehículos eléctricos?;IEEE 1901;IEEE 2030.1;IEEE 802.11;IEEE 1394;1;https://en.wikipedia.org/wiki/Electric_vehicle_network
+¿Cuál estándar IEEE aborda la armonización de la tecnología de la información y la operación del transporte?;IEEE 1484.13.1;IEEE 802.3;IEEE 754;IEEE 1284;0;https://en.wikipedia.org/wiki/IEEE_1484
+¿Qué estándar IEEE establece normas para la seguridad de la información en sistemas de control industrial?;IEEE 1686;IEEE 802.11;IEEE 1394;IEEE 754;0;https://en.wikipedia.org/wiki/IEEE_1686

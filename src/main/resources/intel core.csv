@@ -1,0 +1,21 @@
+Pregunta;Opción 1;Opción 2;Opción 3;Opción 4;Respuesta Correcta;Referencia
+¿Cuál es la primera generación de procesadores Intel Core?;Intel Core i3;Intel Core i5;Intel Core i7;Intel Core 2 Duo;3;https://en.wikipedia.org/wiki/Intel_Core
+¿Qué tecnología introdujo Intel con la serie Core i3?;Hyper-Threading;Turbo Boost;Optane Memory;Thermal Velocity Boost;0;https://en.wikipedia.org/wiki/Intel_Core
+¿Cuál procesador Intel Core fue lanzado como parte de la segunda generación?;Core i3-2100;Core i5-2500K;Core i7-2700K;Todas las anteriores;3;https://en.wikipedia.org/wiki/Intel_Core
+¿Qué característica distingue principalmente a los procesadores Intel Core i7 de los i5?;Mayor número de núcleos;Tecnología Turbo Boost;Mayor velocidad de reloj base;Menor consumo de energía;1;https://en.wikipedia.org/wiki/Intel_Core
+¿Qué novedad trajo la tercera generación de procesadores Intel Core conocida como Ivy Bridge?;Reducción del tamaño del transistor a 22 nm;Integración de gráficos HD 4000;Ambas opciones;Ninguna de las anteriores;2;https://en.wikipedia.org/wiki/Ivy_Bridge_(microarchitecture)
+¿Qué generación de Intel Core introdujo la arquitectura Skylake?;Cuarta;Quinta;Sexta;Séptima;2;https://en.wikipedia.org/wiki/Skylake_(microarchitecture)
+¿Cuál es la característica principal de los procesadores Intel Core i9?;Bajo consumo de energía;Precio económico;Alto rendimiento en multitarea y multimedia;Compactibilidad con dispositivos móviles;2;https://en.wikipedia.org/wiki/Intel_Core_i9
+¿En qué año Intel lanzó la serie de procesadores Core i5?;2006;2008;2009;2011;2;https://en.wikipedia.org/wiki/Intel_Core
+¿Cuál de los siguientes procesadores pertenece a la novena generación de Intel Core?;i3-9100F; i5-9600K; i7-9700K; Todas las anteriores;3;https://en.wikipedia.org/wiki/Coffee_Lake
+¿Cuál generación de Intel Core se conoce como Coffee Lake?;Séptima;Octava;Novena;Décima;2;https://en.wikipedia.org/wiki/Coffee_Lake
+¿Qué tecnología de memoria es compatible con los procesadores Intel Core de décima generación?;DDR3;DDR4;DDR4 y DDR3;DDR4 y Optane;3;https://en.wikipedia.org/wiki/Comet_Lake_(microprocessor)
+¿Cuál de los siguientes NO es un modelo de procesador Intel Core?;i3-10100; i5-10500; i7-10700K; i9-9900;3;https://en.wikipedia.org/wiki/Comet_Lake_(microprocessor)
+¿Cuál es la ventaja principal de la tecnología Intel Turbo Boost en los procesadores Core?;Aumenta la duración de la batería;Reduce el consumo de energía;Aumenta temporalmente la velocidad del procesador;Mejora la conectividad a internet;2;https://en.wikipedia.org/wiki/Intel_Turbo_Boost
+¿Qué generación de Intel Core es conocida por mejorar significativamente el rendimiento de gráficos integrados?;Haswell;Sandy Bridge;Ivy Bridge;Broadwell;0;https://en.wikipedia.org/wiki/Haswell_(microarchitecture)
+¿Cuál es la capacidad máxima de núcleos en un procesador Intel Core i9 de décima generación?;8;10;18;20;2;https://en.wikipedia.org/wiki/Intel_Core_i9
+¿Qué generación de Intel Core se conoce comúnmente como Kaby Lake?;Sexta;Séptima;Octava;Novena;1;https://en.wikipedia.org/wiki/Kaby_Lake
+¿Qué serie de procesadores Intel Core ofrece la mejor eficiencia energética para dispositivos móviles?;Core i3;Core i5;Core i7;Core M;3;https://en.wikipedia.org/wiki/Intel_Core
+¿Qué tecnología de Intel permite a los procesadores Core ajustar dinámicamente su velocidad según la demanda?;SpeedStep;Hyper-Threading;Turbo Memory;Smart Cache;0;https://en.wikipedia.org/wiki/SpeedStep
+¿Cuál es la frecuencia base típica de un procesador Intel Core i5 de octava generación?;2.0 GHz;2.5 GHz;3.0 GHz;3.5 GHz;2;https://en.wikipedia.org/wiki/Coffee_Lake
+¿Qué generación de procesadores Intel Core i7 introdujo soporte nativo para USB 3.1?;Séptima;Octava;Novena;Décima;1;https://en.wikipedia.org/wiki/Kaby_Lake

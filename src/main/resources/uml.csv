@@ -1,0 +1,16 @@
+Pregunta;Opción 1;Opción 2;Opción 3;Opción 4;Respuesta Correcta;Referencia
+¿Qué es UML?;Un lenguaje de programación;Un protocolo de red;Un lenguaje de modelado visual;Una base de datos;2;https://en.wikipedia.org/wiki/Unified_Modeling_Language
+¿Para qué se utiliza principalmente UML?;Programación en backend;Diseño de interfaces de usuario;Visualización de arquitecturas de software;Configuración de redes;2;https://www.uml.org/what-is-uml.htm
+¿Qué tipo de diagrama UML se utiliza para modelar el comportamiento de un sistema?;Diagrama de clases;Diagrama de casos de uso;Diagrama de componentes;Diagrama de despliegue;1;https://www.uml.org/what-is-uml.htm
+¿Cuál diagrama UML se usa para representar la interacción entre objetos en un período de tiempo específico?;Diagrama de secuencia;Diagrama de estado;Diagrama de actividad;Diagrama de colaboración;0;https://www.uml-diagrams.org/sequence-diagrams.html
+¿Qué simboliza una "caja negra" en un diagrama de casos de uso de UML?;Un error en el diseño;Una función del sistema no especificada;Un actor;Un caso de uso;3;https://www.uml-diagrams.org/use-case-diagrams.html
+¿Qué representan las líneas discontinuas en un diagrama de secuencia UML?;Comunicación sincrónica;Comunicación asíncrona;Duración de un objeto;Transferencia de datos;2;https://www.uml-diagrams.org/sequence-diagrams.html
+¿Cuál diagrama UML es más efectivo para modelar el flujo de un proceso o algoritmo?;Diagrama de clases;Diagrama de casos de uso;Diagrama de actividad;Diagrama de componentes;2;https://www.uml-diagrams.org/activity-diagrams.html
+¿Qué indica una flecha en un diagrama de casos de uso UML?;Dependencia;Herencia;Asociación;Comunicación;2;https://www.uml-diagrams.org/use-case-diagrams.html
+¿En qué diagrama UML se representan las decisiones?;Diagrama de secuencia;Diagrama de estados;Diagrama de actividades;Diagrama de despliegue;2;https://www.uml-diagrams.org/activity-diagrams.html
+¿Qué simboliza un rectángulo en un diagrama de clases UML?;Una interfaz;Una clase;Un paquete;Una instancia;1;https://www.uml-diagrams.org/class-diagrams.html
+¿Qué tipo de diagrama UML se utilizaría para desglosar un sistema en subsistemas más pequeños?;Diagrama de paquetes;Diagrama de despliegue;Diagrama de componentes;Diagrama de estructura compuesta;0;https://www.uml-diagrams.org/package-diagrams.html
+¿Cómo se representa una relación de herencia en UML?;Con una línea sólida y un diamante;Con una línea sólida y una flecha abierta;Con una línea punteada y una flecha;Con una línea sólida y un triángulo en la punta;3;https://www.uml-diagrams.org/generalization.html
+¿Cuál es el propósito de un diagrama de despliegue en UML?;Mostrar la interacción entre usuarios y el sistema;Mostrar la disposición física de los objetos en tiempo de ejecución;Mostrar la estructura lógica del software;Mostrar el flujo de control en el software;1;https://www.uml-diagrams.org/deployment-diagrams.html
+¿Qué representa un artefacto en un diagrama de despliegue UML?;Un recurso físico como una impresora;Un componente de software;Un documento o archivo de configuración;Cualquier elemento que deba ser desplegado;2;https://www.uml-diagrams.org/deployment-diagrams.html
+¿Qué simboliza un círculo en un diagrama de actividad UML?;Inicio/fin del flujo;Un proceso;Una decisión;Una transición;0;https://www.uml-diagrams.org/activity-diagrams.html

@@ -1,0 +1,26 @@
+Pregunta;Opción 1;Opción 2;Opción 3;Opción 4;Respuesta Correcta;Referencia
+¿Cuántas capas tiene el modelo OSI?;5;6;7;8;2;https://en.wikipedia.org/wiki/OSI_model
+¿Qué capa del modelo OSI es responsable de la entrega de paquetes desde un dispositivo a otro sin errores?;Capa de transporte;Capa de red;Capa de sesión;Capa de enlace de datos;1;https://www.lifewire.com/osi-model-818016
+¿Qué capa del modelo OSI gestiona la comunicación entre dispositivos en una red local?;Capa física;Capa de red;Capa de enlace de datos;Capa de transporte;2;https://en.wikipedia.org/wiki/OSI_model
+¿Cuál es la función principal de la capa de transporte en el modelo OSI?;Encriptar datos;Segmentar y reensamblar los datos para transferencia;Gestionar la conexión física;Rastrear la dirección IP;1;https://www.lifewire.com/osi-model-818016
+¿Qué capa del modelo OSI se encarga de la codificación y decodificación de datos?;Capa de presentación;Capa de aplicación;Capa de sesión;Capa física;0;https://en.wikipedia.org/wiki/OSI_model
+¿Cuál capa del modelo OSI establece, gestiona y termina las sesiones entre aplicaciones?;Capa de red;Capa de transporte;Capa de sesión;Capa de presentación;2;https://en.wikipedia.org/wiki/OSI_model
+¿En qué capa del modelo OSI se encapsulan los datos en forma de paquetes?;Capa de transporte;Capa de enlace de datos;Capa de red;Capa de sesión;2;https://en.wikipedia.org/wiki/OSI_model
+¿Qué capa del modelo OSI es responsable de la traducción de direcciones lógicas a direcciones físicas?;Capa de red;Capa de enlace de datos;Capa física;Capa de transporte;1;https://en.wikipedia.org/wiki/OSI_model
+¿Qué capa del modelo OSI proporciona servicios directamente al usuario final?;Capa de aplicación;Capa de presentación;Capa de sesión;Capa de transporte;0;https://en.wikipedia.org/wiki/OSI_model
+¿Cuál capa del modelo OSI es responsable de la detección y corrección de errores que pueden ocurrir en la capa física?;Capa de enlace de datos;Capa física;Capa de red;Capa de transporte;0;https://en.wikipedia.org/wiki/OSI_model
+¿Qué capa del modelo OSI se ocupa de la transmisión de bits crudos sobre un medio físico?;Capa de red;Capa de enlace de datos;Capa física;Capa de transporte;2;https://en.wikipedia.org/wiki/OSI_model
+¿Qué capa del modelo OSI maneja la compresión de datos?;Capa de transporte;Capa de sesión;Capa de presentación;Capa de aplicación;2;https://en.wikipedia.org/wiki/OSI_model
+¿Cuál capa del modelo OSI convierte los datos en señales y viceversa?;Capa física;Capa de enlace de datos;Capa de red;Capa de transporte;0;https://en.wikipedia.org/wiki/OSI_model
+¿Qué capa del modelo OSI maneja el flujo de control entre sistemas?;Capa de sesión;Capa de transporte;Capa de red;Capa de enlace de datos;0;https://en.wikipedia.org/wiki/OSI_model
+¿Cuál capa del modelo OSI se asegura que los datos lleguen completos y en secuencia?;Capa de enlace de datos;Capa física;Capa de transporte;Capa de red;2;https://en.wikipedia.org/wiki/OSI_model
+¿Qué capa del modelo OSI permite a los usuarios acceder a la red?;Capa de aplicación;Capa física;Capa de presentación;Capa de sesión;0;https://en.wikipedia.org/wiki/OSI_model
+¿En qué capa del modelo OSI opera el protocolo IP?;Capa de transporte;Capa de red;Capa de enlace de datos;Capa de sesión;1;https://en.wikipedia.org/wiki/OSI_model
+¿Qué capa del modelo OSI utiliza direcciones MAC?;Capa de enlace de datos;Capa física;Capa de red;Capa de transporte;0;https://en.wikipedia.org/wiki/OSI_model
+¿Qué capa del modelo OSI es responsable de la tokenización de datos?;Capa de sesión;Capa de presentación;Capa de aplicación;Capa de transporte;1;https://en.wikipedia.org/wiki/OSI_model
+¿Cuál capa del modelo OSI proporciona el diálogo control entre dispositivos de red?;Capa de sesión;Capa de presentación;Capa de aplicación;Capa de transporte;0;https://en.wikipedia.org/wiki/OSI_model
+¿Qué capa del modelo OSI se encarga de las direcciones lógicas, enrutamiento y path determination?;Capa de red;Capa de enlace de datos;Capa física;Capa de transporte;0;https://en.wikipedia.org/wiki/OSI_model
+¿Qué capa del modelo OSI coordina la comunicación entre sistemas?;Capa de sesión;Capa de transporte;Capa de red;Capa de enlace de datos;0;https://en.wikipedia.org/wiki/OSI_model
+¿Qué capa del modelo OSI establece estándares para diferentes sistemas operativos para comunicarse?;Capa de aplicación;Capa de presentación;Capa de sesión;Capa de enlace de datos;1;https://en.wikipedia.org/wiki/OSI_model
+¿Cuál es la función de los gateways en el modelo OSI?;Convertir información de una capa a otra;Proporcionar seguridad mediante firewalls;Conectar diferentes redes en la capa de red;Ninguna de las anteriores;0;https://en.wikipedia.org/wiki/OSI_model
+¿Qué capa del modelo OSI maneja el encriptado y desencriptado de datos?;Capa de presentación;Capa de aplicación;Capa de sesión;Capa de transporte;0;https://en.wikipedia.org/wiki/OSI_model

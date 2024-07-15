@@ -1,0 +1,21 @@
+Pregunta;Opción 1;Opción 2;Opción 3;Opción 4;Respuesta Correcta;Referencia
+¿Qué comando en Linux se utiliza para listar el contenido de un directorio?;ls;dir;list;show;0;https://en.wikipedia.org/wiki/Ls
+¿Cuál comando permite cambiar el directorio actual en Linux?;change;cd;mdir;switch;1;https://en.wikipedia.org/wiki/Cd_(command)
+¿Qué comando se usa para copiar archivos y directorios en Linux?;copy;cp;mv;dup;1;https://en.wikipedia.org/wiki/Cp_(Unix)
+¿Con qué comando en Linux se puede mover o renombrar un archivo?;mv;rn;move;rename;0;https://en.wikipedia.org/wiki/Mv
+¿Qué comando permite crear un nuevo directorio en Linux?;mkdir;mkfile;newdir;crdir;0;https://en.wikipedia.org/wiki/Mkdir
+¿Cuál comando se utiliza para eliminar archivos en Linux?;del;remove;rm;erase;2;https://en.wikipedia.org/wiki/Rm_(Unix)
+¿Qué comando se usa para eliminar un directorio vacío en Linux?;rmdir;removedir;del;erase;0;https://en.wikipedia.org/wiki/Rmdir
+¿Cómo se puede visualizar el uso del disco por directorio en Linux?;du;diskuse;df;diskfree;0;https://en.wikipedia.org/wiki/Du_(Unix)
+¿Qué comando muestra información sobre el uso del espacio en disco en Linux?;du;df;diskfree;diskusage;1;https://en.wikipedia.org/wiki/Df_(Unix)
+¿Con qué comando en Linux puedes cambiar los permisos de un archivo o directorio?;chperm;chmod;permchange;modperm;1;https://en.wikipedia.org/wiki/Chmod
+¿Qué comando en Linux se usa para cambiar el propietario de un archivo o directorio?;chown;own;chuser;usermod;0;https://en.wikipedia.org/wiki/Chown
+¿Cuál es el comando para encontrar archivos y directorios por nombre en Linux?;search;find;seek;lookup;1;https://en.wikipedia.org/wiki/Find
+¿Cómo se puede cambiar el grupo de un archivo o directorio en Linux?;chgroup;chg;chgrp;groupmod;2;https://en.wikipedia.org/wiki/Chgrp
+¿Qué comando en Linux se usa para ver el contenido de un archivo de texto en la terminal?;cat;dog;type;print;0;https://en.wikipedia.org/wiki/Cat_(Unix)
+¿Cuál comando permite concatenar y mostrar el contenido de archivos en Linux?;concat;cat;join;merge;1;https://en.wikipedia.org/wiki/Cat_(Unix)
+¿Qué comando en Linux te permite crear un enlace simbólico a un archivo?;symlink;ln;link;mklink;1;https://en.wikipedia.org/wiki/Ln_(Unix)
+¿Cómo se puede comparar el contenido de dos archivos en Linux?;comp;diff;match;compare;1;https://en.wikipedia.org/wiki/Diff
+¿Qué comando se usa para buscar texto dentro de los archivos en Linux?;search;grep;findstr;scan;1;https://en.wikipedia.org/wiki/Grep
+¿Con qué comando en Linux puedes visualizar las primeras líneas de un archivo?;head;top;begin;start;0;https://en.wikipedia.org/wiki/Head_(Unix)
+¿Cuál comando se utiliza para visualizar las últimas líneas de un archivo en Linux?;tail;end;bottom;finish;0;https://en.wikipedia.org/wiki/Tail_(Unix)

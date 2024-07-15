@@ -1,0 +1,21 @@
+Pregunta;Opción 1;Opción 2;Opción 3;Opción 4;Respuesta Correcta;Referencia
+¿Cuál es la velocidad máxima de transferencia de HDMI 1.0?;1.65 Gbps;2.25 Gbps;4.95 Gbps;10 Gbps;1;https://en.wikipedia.org/wiki/HDMI
+¿Cuál versión de HDMI introdujo el soporte para 4K a 60Hz?;HDMI 1.4;HDMI 2.0;HDMI 2.1;HDMI 1.3;1;https://en.wikipedia.org/wiki/HDMI
+¿Qué versión de HDMI es necesaria para alcanzar velocidades de transferencia de hasta 48 Gbps?;HDMI 1.4;HDMI 2.0;HDMI 2.1;HDMI 1.3;2;https://en.wikipedia.org/wiki/HDMI
+¿Cuál es la velocidad máxima de transferencia de datos en SAS-1?;1.5 Gbps;3 Gbps;6 Gbps;12 Gbps;1;https://en.wikipedia.org/wiki/Serial_Attached_SCSI
+¿Cuál es la característica principal de HDMI 2.1 que mejora la velocidad de transferencia en comparación con HDMI 2.0?;Mejor compresión;Menor latencia;Mayor ancho de banda;Tecnología de cable mejorada;2;https://en.wikipedia.org/wiki/HDMI
+¿Qué versión de SAS es capaz de alcanzar velocidades de 12 Gbps?;SAS-1;SAS-2;SAS-3;SAS-4;2;https://en.wikipedia.org/wiki/Serial_Attached_SCSI
+¿Cuál es la principal mejora en la velocidad de SAS-3 en comparación con SAS-2?;De 3 Gbps a 6 Gbps;De 6 Gbps a 12 Gbps;De 12 Gbps a 22.5 Gbps;De 1.5 Gbps a 3 Gbps;1;https://en.wikipedia.org/wiki/Serial_Attached_SCSI
+¿Qué versión de HDMI soporta "Dynamic HDR"?;HDMI 1.4;HDMI 2.0;HDMI 2.1;HDMI 1.3;2;https://en.wikipedia.org/wiki/HDMI
+¿Cuál es la velocidad de transferencia máxima de SAS-4?;22.5 Gbps;12 Gbps;24 Gbps;48 Gbps;2;https://en.wikipedia.org/wiki/Serial_Attached_SCSI
+¿Cómo afecta el HDMI ARC (Audio Return Channel) la configuración de sistemas de entretenimiento en casa?;Reduce la cantidad de cables necesarios;Aumenta la velocidad de transferencia de datos;Mejora la resolución de video;Disminuye la compatibilidad con dispositivos antiguos;0;https://en.wikipedia.org/wiki/HDMI
+¿Qué versión de HDMI introdujo el canal Ethernet HDMI?;HDMI 1.4;HDMI 2.0;HDMI 2.1;HDMI 1.3;0;https://en.wikipedia.org/wiki/HDMI
+¿Para qué se utiliza la característica eARC en HDMI 2.1?;Para enviar audio de alta calidad desde el televisor a un sistema de sonido;Para mejorar la calidad de la imagen;Para aumentar la velocidad de transferencia de datos;Para conectar dispositivos a Internet;0;https://en.wikipedia.org/wiki/HDMI
+¿Cuál es la diferencia principal en las velocidades entre SAS-2 y SAS-4?;De 3 Gbps a 6 Gbps;De 6 Gbps a 12 Gbps;De 12 Gbps a 24 Gbps;De 24 Gbps a 48 Gbps;2;https://en.wikipedia.org/wiki/Serial_Attached_SCSI
+¿Qué mejora relacionada con la frecuencia de actualización introdujo HDMI 2.1?;Soporte para 120Hz en 4K;Soporte para 30Hz en 8K;Soporte para 60Hz en 10K;Soporte para 240Hz en 1080p;0;https://en.wikipedia.org/wiki/HDMI
+¿Cuál es la capacidad de cableado máximo estándar para SAS-3?;4 metros;8 metros;10 metros;12 metros;1;https://en.wikipedia.org/wiki/Serial_Attached_SCSI
+¿Qué capacidad de color se mejora con HDMI 2.0 sobre versiones anteriores?;Profundidad de color de 48 bits;Profundidad de color de 36 bits;HDR dinámico;Color automático;1;https://en.wikipedia.org/wiki/HDMI
+¿Cuál es una característica única de SAS-4 que mejora su rendimiento?;Cables más largos;Menor consumo de energía;Soporte para 24 Gbps;Soporte para la retrocompatibilidad;2;https://en.wikipedia.org/wiki/Serial_Attached_SCSI
+¿Qué permite el HDMI CEC (Consumer Electronics Control)?;Controlar múltiples dispositivos HDMI con un solo control remoto;Aumentar la velocidad de transferencia de datos;Mejorar la calidad del audio;Reducir el consumo de energía de los dispositivos;0;https://en.wikipedia.org/wiki/HDMI
+¿Qué versión de SAS introdujo la compatibilidad con discos de 2.5 y 3.5 pulgadas?;SAS-1;SAS-2;SAS-3;SAS-4;1;https://en.wikipedia.org/wiki/Serial_Attached_SCSI
+¿Cuál es el propósito del MHL (Mobile High-Definition Link) en contextos HDMI?;Conectar dispositivos móviles directamente a pantallas HD;Mejorar la velocidad de transferencia de HDMI;Reducir la latencia en la transmisión de video;Incrementar la seguridad de las conexiones HDMI;0;https://en.wikipedia.org/wiki/Mobile_High-Definition_Link
